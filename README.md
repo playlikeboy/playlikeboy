@@ -1,12 +1,13 @@
 <div align="center">
 
-<a href="https://sh20raj.github.io">
+<a href="https://playlikeboy.github.io">
   <img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="Shaswat Raj — Software Engineer, AI systems and full-stack builder" width="100%">
 </a>
 
 <p>
-  <a href="https://sh20raj.github.io"><img src="https://img.shields.io/badge/Portfolio-1461FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://github.com/SH20RAJ"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://playlikeboy.github.io"><img src="https://img.shields.io/badge/Portfolio-1461FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://github.com/playlikeboy"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://gitlab.com/SH20RAJ"><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"></a>
   <a href="https://www.linkedin.com/in/sh20raj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.youtube.com/@StackShade"><img src="https://img.shields.io/badge/StackShade-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="StackShade"></a>
   <a href="https://peerlist.io/sh20raj"><img src="https://img.shields.io/badge/Peerlist-00AB46?style=for-the-badge&logo=peerlist&logoColor=white" alt="Peerlist"></a>
@@ -17,6 +18,8 @@
 
 > **I build products that ship.**  
 > AI systems, full-stack applications, developer tools, and edge-first infrastructure — from idea to production.
+
+> 📦 **October 2026:** I consolidated all of my work from @SH20RAJ into this account — 330+ repositories with full commit history, every commit authored here as @playlikeboy. The complete archive also lives in the [@sh20raj-backup](https://github.com/sh20raj-backup) org and on [GitLab](https://gitlab.com/SH20RAJ).
 
 <table>
 <tr>
@@ -57,24 +60,24 @@ I care about:
 
 | Project | What it is | Core engineering |
 |---|---|---|
-| **[CampusLoop](https://github.com/SH20RAJ/campusloop)** | Verified campus social network with feeds, chat, matching, stories, communities and utilities | <code>Next.js</code> · <code>Cloudflare</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>WebRTC</code> |
-| **[SopKit](https://github.com/SopKit/sopkit.github.io)** | Privacy-first collection of browser utilities running primarily on-device | <code>Web APIs</code> · <code>WebAssembly</code> · <code>SEO</code> · <code>Performance</code> |
-| **[Debo](https://github.com/SH20RAJ/debo)** | AI memory and retrieval system | <code>RAG</code> · <code>Embeddings</code> · <code>Hybrid Search</code> · <code>Agents</code> |
-| **[IndexFast](https://github.com/SH20RAJ/index-fast)** | Automated indexing and SEO tooling with MCP integrations | <code>Next.js</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>MCP</code> |
-| **[Sanskrit](https://github.com/SH20RAJ/sanskrit)** | Experimental programming language with Devanagari syntax | <code>Lexer</code> · <code>Parser</code> · <code>Interpreter</code> · <code>CLI</code> |
-| **[SopPlayer](https://github.com/SH20RAJ/Sopplayer)** | Lightweight HTML5 media player distributed through a CDN | <code>JavaScript</code> · <code>Media APIs</code> · <code>Library Engineering</code> |
+| **[CampusLoop](https://github.com/playlikeboy/campusloop)** | Verified campus social network with feeds, chat, matching, stories, communities and utilities | <code>Next.js</code> · <code>Cloudflare</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>WebRTC</code> |
+| **[SopKit](https://github.com/playlikeboy/30tools)** | Privacy-first collection of browser utilities running primarily on-device | <code>Web APIs</code> · <code>WebAssembly</code> · <code>SEO</code> · <code>Performance</code> |
+| **[Debo](https://github.com/playlikeboy/debo)** | AI memory and retrieval system | <code>RAG</code> · <code>Embeddings</code> · <code>Hybrid Search</code> · <code>Agents</code> |
+| **[IndexFast](https://github.com/playlikeboy/index-fast)** | Automated indexing and SEO tooling with MCP integrations | <code>Next.js</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>MCP</code> |
+| **[Sanskrit](https://github.com/playlikeboy/sanskrit)** | Experimental programming language with Devanagari syntax | <code>Lexer</code> · <code>Parser</code> · <code>Interpreter</code> · <code>CLI</code> |
+| **[SopPlayer](https://github.com/playlikeboy/Sopplayer)** | Lightweight HTML5 media player distributed through a CDN | <code>JavaScript</code> · <code>Media APIs</code> · <code>Library Engineering</code> |
 
 <details>
 <summary><strong>More things I've built</strong></summary>
 
 [Bitotsav '26](https://www.linkedin.com/posts/shaswatraj_bitotsav-2026-what-a-journey-what-a-responsibility-activity-7442608760193216512-Y_nn) ·
-[KishanAI](https://github.com/SH20RAJ/KishanAI) ·
-[Solus](https://github.com/SH20RAJ/solus) ·
-[Linespedia](https://github.com/SH20RAJ/linepedia) ·
-[SnapAttend](https://github.com/SH20RAJ/SnapAttend) ·
-[SketchFlow](https://github.com/SH20RAJ/sketchflow) ·
-[CodeSeek](https://github.com/SH20RAJ/CodeSeek) ·
-[Picser](https://github.com/SH20RAJ/picser)
+[KishanAI](https://github.com/playlikeboy/KishanAI) ·
+[Solus](https://github.com/playlikeboy/solus) ·
+[Linespedia](https://github.com/playlikeboy/linepedia) ·
+[SnapAttend](https://github.com/playlikeboy/SnapAttend) ·
+[SketchFlow](https://github.com/playlikeboy/sketchflow) ·
+[CodeSeek](https://github.com/playlikeboy/CodeSeek) ·
+[Picser](https://github.com/playlikeboy/picser)
 
 </details>
 
@@ -174,6 +177,7 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 <p align="center">
   <a href="https://sh20raj.gitlab.io">Portfolio</a> ·
   <a href="https://github.com/playlikeboy">GitHub</a> ·
+  <a href="https://gitlab.com/SH20RAJ">GitLab</a> ·
   <a href="https://www.linkedin.com/in/sh20raj/">LinkedIn</a> ·
   <a href="https://dev.to/sh20raj">Dev.to</a> ·
   <a href="https://peerlist.io/sh20raj">Peerlist</a> ·
