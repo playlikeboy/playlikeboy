@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://sh20raj.github.io">
-  <img src="https://raw.githubusercontent.com/SH20RAJ/sh20raj/main/assets/readme/hero.svg" alt="Shaswat Raj — Software Engineer, AI systems and full-stack builder" width="100%">
+  <img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="Shaswat Raj — Software Engineer, AI systems and full-stack builder" width="100%">
 </a>
 
 <p>
