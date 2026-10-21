@@ -144,15 +144,15 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=sh20raj&theme=blueberry&show_icons=true&hide_border=true&count_private=true" alt="GitHub statistics">
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=playlikeboy&theme=blueberry&show_icons=true&hide_border=true&count_private=true" alt="GitHub statistics">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=sh20raj&theme=blueberry&show_icons=true&hide_border=true&layout=compact" alt="Most used languages">
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=playlikeboy&theme=blueberry&show_icons=true&hide_border=true&layout=compact" alt="Most used languages">
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SH20RAJ&theme=github_dark" alt="GitHub profile summary">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=playlikeboy&theme=github_dark" alt="GitHub profile summary">
 
 </div>
 
@@ -160,9 +160,9 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 <summary><strong>Contribution activity</strong></summary>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sh20raj/sh20raj/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sh20raj/sh20raj/output/github-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/sh20raj/sh20raj/output/github-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/output/github-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/output/github-snake.svg">
 </picture>
 
 </details>
@@ -172,8 +172,8 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 ## 🌐 Elsewhere
 
 <p align="center">
-  <a href="https://sh20raj.github.io">Portfolio</a> ·
-  <a href="https://github.com/SH20RAJ">GitHub</a> ·
+  <a href="https://sh20raj.gitlab.io">Portfolio</a> ·
+  <a href="https://github.com/playlikeboy">GitHub</a> ·
   <a href="https://www.linkedin.com/in/sh20raj/">LinkedIn</a> ·
   <a href="https://dev.to/sh20raj">Dev.to</a> ·
   <a href="https://peerlist.io/sh20raj">Peerlist</a> ·
