@@ -129,6 +129,41 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 > Good open source work is often less about the size of the diff and more about understanding the system behind it.
 
+<details>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 13 in review (updated 2026-11-05)</summary>
+
+<br>
+
+**Merged**
+
+| Date | Repository | Pull request |
+|---|---|---|
+| 2026-11-01 | codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040) fix(inline-toolbar): do not show "Convert to" when there is nothing to convert to |
+| 2026-10-25 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331) fix(types): allow list attribute on all valid input types |
+| 2026-10-22 | campusloop-space/dsaloop | [#1](https://github.com/campusloop-space/dsaloop/pull/1) feat: full online compiler, CodeMirror 6 workspace, multi-language support |
+| 2026-10-22 | acm-bitmesra/acm-bitmesra.github.io | [#3](https://github.com/acm-bitmesra/acm-bitmesra.github.io/pull/3) feat: student developer platform with verified identities and rankings |
+
+**In review**
+
+| Opened | Repository | Pull request |
+|---|---|---|
+| 2026-11-05 | kmesh-net/kmesh | [#1983](https://github.com/kmesh-net/kmesh/pull/1983) waypoint: compare dataplane-mode label case-insensitively like the daemon |
+| 2026-11-02 | codex-team/editor.js | [#3041](https://github.com/codex-team/editor.js/pull/3041) fix(sanitizer): merge sanitize rules for the same tag instead of overwriting them |
+| 2026-11-02 | jaegertracing/jaeger | [#10024](https://github.com/jaegertracing/jaeger/pull/10024) fix(sampling): reject out-of-range params in file strategies |
+| 2026-11-01 | meta/lexical | [#9705](https://github.com/meta/lexical/pull/9705) draggable individual list items (draft) |
+| 2026-11-01 | kmesh-net/kmesh | [#1977](https://github.com/kmesh-net/kmesh/pull/1977) utils: decide command success by exit status, not stderr |
+| 2026-10-31 | asyncapi/website | [#5880](https://github.com/asyncapi/website/pull/5880) fix: resolve edit links that 404 for bindings and specification pages |
+| 2026-10-31 | asyncapi/studio | [#1397](https://github.com/asyncapi/studio/pull/1397) test(studio): add jest runner and unit tests for studio services |
+| 2026-10-25 | radix-ui/primitives | [#4252](https://github.com/radix-ui/primitives/pull/4252) fix(Select): gate hideOthers on positioned state |
+| 2026-10-25 | radix-ui/primitives | [#4251](https://github.com/radix-ui/primitives/pull/4251) fix(DismissableLayer): tie inside pointer capture mark to event identity |
+| 2026-10-24 | meta/lexical | [#9458](https://github.com/meta/lexical/pull/9458) [lexical-markdown] support ordered lists that use the ')' delimiter |
+| 2026-10-22 | meta/lexical | [#9447](https://github.com/meta/lexical/pull/9447) [lexical-markdown] preserve NodeState, mode and detail of text nodes with tabs |
+| 2026-10-22 | micromark/micromark | [#255](https://github.com/micromark/micromark/pull/255) fix(core-commonmark): allow ordered list with leading zeros to interrupt paragraph |
+| 2026-10-22 | pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775) fix(server): suppress redundant keybindings change emission |
+
+</details>
+
+
 ---
 
 ## 📦 A few numbers
