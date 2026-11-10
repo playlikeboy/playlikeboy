@@ -19,7 +19,7 @@
 > **I build products that ship.**  
 > AI systems, full-stack applications, developer tools, and edge-first infrastructure — from idea to production.
 
-> 📦 **October 2026:** I consolidated all of my work from @SH20RAJ into this account — 330+ repositories with full commit history, every commit authored here as @playlikeboy. The complete archive also lives in the [@sh20raj-backup](https://github.com/sh20raj-backup) org and on [GitLab](https://gitlab.com/SH20RAJ).
+> 📦 **October 2026:** I consolidated all of my work from [@SH20RAJ](https://web.archive.org/web/20260906091107/https://github.com/SH20RAJ/) into this account — 330+ repositories with full commit history, every commit authored here as @playlikeboy. The complete archive also lives in the [@sh20raj-backup](https://github.com/sh20raj-backup) org and on [GitLab](https://gitlab.com/SH20RAJ).
 
 <table>
 <tr>
