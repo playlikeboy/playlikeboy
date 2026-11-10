@@ -1,0 +1,13 @@
+{
+  "jaegertracing/jaeger#10024": "File-based remote sampling now rejects probabilistic params outside [0,1] and rate limits outside int32 at startup and on hot reload, instead of serving them to SDKs.",
+  "kmesh-net/kmesh#1987": "DNS refresh queue is keyed by domain, so repeated xDS updates for one hostname no longer start duplicate refresh loops.",
+  "kmesh-net/kmesh#1983": "kmeshctl waypoint compares the istio.io/dataplane-mode label case-insensitively, matching the daemon's enrollment check.",
+  "kmesh-net/kmesh#1977": "utils.Execute decides success by exit status; stderr output alone (e.g. iptables-legacy warnings) no longer counts as failure.",
+  "codex-team/editor.js#3040": "Inline toolbar hides the \"Convert to\" entry when no conversion target exists.",
+  "codex-team/editor.js#3041": "Sanitizer merges rules declared for the same tag instead of overwriting them.",
+  "preactjs/preact#5331": "Type definitions allow the list attribute on every valid input type.",
+  "asyncapi/studio#1397": "Adds a Jest runner and unit tests for the server-api and specification services.",
+  "asyncapi/website#5880": "Fixes edit-page links that returned 404 for bindings and specification pages.",
+  "campusloop-space/dsaloop#1": "Online compiler, CodeMirror 6 workspace and multi-language DSA judge engine.",
+  "acm-bitmesra/acm-bitmesra.github.io#3": "Student developer platform with verified identities and rankings."
+}
