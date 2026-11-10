@@ -131,7 +131,7 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 5 merged · 16 in review · 14 issues filed (updated 2026-11-10, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 16 in review · 14 issues filed (updated 2026-11-10, refreshed automatically)</summary>
 
 <br>
 
@@ -139,7 +139,6 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
-| 2026-11-10 | playlikeboy/playlikeboy.github.io | [#1](https://github.com/playlikeboy/playlikeboy.github.io/pull/1) Position portfolio for SDE, FDE and DevOps applications |  |
 | 2026-11-01 | codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040) fix(inline-toolbar): do not show "Convert to" when there is nothing to convert to | Inline toolbar hides the "Convert to" entry when no conversion target exists. |
 | 2026-10-25 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331) fix(types): allow list attribute on all valid input types | Type definitions allow the list attribute on every valid input type. |
 | 2026-10-22 | campusloop-space/dsaloop | [#1](https://github.com/campusloop-space/dsaloop/pull/1) feat: full online compiler, CodeMirror 6 workspace, and multi-language DSA judge engine | Online compiler, CodeMirror 6 workspace and multi-language DSA judge engine. |

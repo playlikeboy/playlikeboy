@@ -10,10 +10,14 @@ NOTES="${NOTES_PATH:-scripts/pr-notes.json}"
 BEGIN='<!-- PRS:BEGIN -->'
 END='<!-- PRS:END -->'
 
+# Only upstream work counts: drop PRs against the user's own repositories.
+own_repo_filter='[.[] | select(.repository.nameWithOwner | startswith($u + "/") | not) | select(.repository.nameWithOwner | startswith("sh20raj-backup/") | not)]'
+
 fetch() { # $1 = extra gh search flags
   # shellcheck disable=SC2086
   gh search prs --author "$USER_LOGIN" $1 --limit 200 \
-    --json repository,number,title,url,createdAt,closedAt,isDraft,state
+    --json repository,number,title,url,createdAt,closedAt,isDraft,state \
+    | jq --arg u "$USER_LOGIN" "$own_repo_filter"
 }
 
 merged_json=$(fetch "--merged")
