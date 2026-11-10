@@ -131,7 +131,7 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 16 in review · 13 issues filed (updated 2026-11-10, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 5 merged · 16 in review · 14 issues filed (updated 2026-11-10, refreshed automatically)</summary>
 
 <br>
 
@@ -139,6 +139,7 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-10 | playlikeboy/playlikeboy.github.io | [#1](https://github.com/playlikeboy/playlikeboy.github.io/pull/1) Position portfolio for SDE, FDE and DevOps applications |  |
 | 2026-11-01 | codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040) fix(inline-toolbar): do not show "Convert to" when there is nothing to convert to | Inline toolbar hides the "Convert to" entry when no conversion target exists. |
 | 2026-10-25 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331) fix(types): allow list attribute on all valid input types | Type definitions allow the list attribute on every valid input type. |
 | 2026-10-22 | campusloop-space/dsaloop | [#1](https://github.com/campusloop-space/dsaloop/pull/1) feat: full online compiler, CodeMirror 6 workspace, and multi-language DSA judge engine | Online compiler, CodeMirror 6 workspace and multi-language DSA judge engine. |
@@ -167,21 +168,22 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 **Issues reported upstream** (bugs found, reproduced and documented; several carry a ready fix)
 
-| Opened | Repository | Issue | Status |
-|---|---|---|---|
-| 2026-11-10 | kmesh-net/kmesh | [#1991](https://github.com/kmesh-net/kmesh/issues/1991) kmeshctl secret create fails with AlreadyExists when the existing secret has no spi | open |
-| 2026-11-10 | kmesh-net/kmesh | [#1990](https://github.com/kmesh-net/kmesh/issues/1990) mcp: get_mesh_namespaces misses namespaces labelled istio.io/dataplane-mode=kmesh (case mismatch with the daemon) | open |
-| 2026-11-10 | kmesh-net/kmesh | [#1988](https://github.com/kmesh-net/kmesh/issues/1988) kmesh-cni: CmdAdd panics with a nil dereference when CNI_ARGS cannot be loaded | open |
-| 2026-11-10 | jaegertracing/jaeger | [#10116](https://github.com/jaegertracing/jaeger/issues/10116) ES/OpenSearch SPM queries grouped by operation are capped at 10 operations per service | open |
-| 2026-11-10 | jaegertracing/jaeger | [#10115](https://github.com/jaegertracing/jaeger/issues/10115) [Bug]: Elasticsearch SPM call rates are low by (lookback-1)/lookback and zero when ratePer <= step | open |
-| 2026-11-10 | jaegertracing/jaeger | [#10114](https://github.com/jaegertracing/jaeger/issues/10114) [Bug]: Prometheus metrics reader sends the wrong rate window for ratePer values that are not a single unit | open |
-| 2026-11-05 | kmesh-net/kmesh | [#1982](https://github.com/kmesh-net/kmesh/issues/1982) kmeshctl waypoint: dataplane-mode label compared case-sensitively, disagrees with the daemon's enrollment check | open |
-| 2026-11-02 | jaegertracing/jaeger | [#10023](https://github.com/jaegertracing/jaeger/issues/10023) [Bug]: File sampling provider serves out-of-range probabilistic and ratelimiting params | open |
-| 2026-11-01 | kmesh-net/kmesh | [#1980](https://github.com/kmesh-net/kmesh/issues/1980) pkg/utils: HashName maps are read by the dual-engine bpf dump while the workload processor writes them (concurrent map crash) | open |
-| 2026-11-01 | kmesh-net/kmesh | [#1979](https://github.com/kmesh-net/kmesh/issues/1979) mcp: config_dump tool returns 404 when the optional mode argument is omitted | open |
-| 2026-11-01 | kmesh-net/kmesh | [#1978](https://github.com/kmesh-net/kmesh/issues/1978) pkg/dns: repeated AddDomainInQueue calls for one hostname start duplicate refresh loops that never stop | open |
-| 2026-11-01 | kmesh-net/kmesh | [#1976](https://github.com/kmesh-net/kmesh/issues/1976) pkg/utils: Execute reports failure whenever the command writes to stderr, even on exit 0 | open |
-| 2026-10-21 | json-schema-org/website | [#2576](https://github.com/json-schema-org/website/issues/2576) 🐛 Bug: Headings with inline code or formatting produce truncated anchor IDs, breaking TOC and internal links | open |
+| Opened | Repository | Issue | Status | Note |
+|---|---|---|---|---|
+| 2026-11-10 | drizzle-team/drizzle-orm | [#6667](https://github.com/drizzle-team/drizzle-orm/issues/6667) [BUG]: drizzle-kit pull with camel casing turns FIRST_NAME into firstNAME since rc.5 | open | drizzle-kit pull camel-cased FIRST_NAME as firstNAME since rc.5. Fix with tests is ready on the fork branch fix/kit-pull-camel-screaming-snake; drizzle-orm limits PR creation to collaborators, so the branch is linked from the issue. |
+| 2026-11-10 | kmesh-net/kmesh | [#1991](https://github.com/kmesh-net/kmesh/issues/1991) kmeshctl secret create fails with AlreadyExists when the existing secret has no spi | open |  |
+| 2026-11-10 | kmesh-net/kmesh | [#1990](https://github.com/kmesh-net/kmesh/issues/1990) mcp: get_mesh_namespaces misses namespaces labelled istio.io/dataplane-mode=kmesh (case mismatch with the daemon) | open |  |
+| 2026-11-10 | kmesh-net/kmesh | [#1988](https://github.com/kmesh-net/kmesh/issues/1988) kmesh-cni: CmdAdd panics with a nil dereference when CNI_ARGS cannot be loaded | open |  |
+| 2026-11-10 | jaegertracing/jaeger | [#10116](https://github.com/jaegertracing/jaeger/issues/10116) ES/OpenSearch SPM queries grouped by operation are capped at 10 operations per service | open |  |
+| 2026-11-10 | jaegertracing/jaeger | [#10115](https://github.com/jaegertracing/jaeger/issues/10115) [Bug]: Elasticsearch SPM call rates are low by (lookback-1)/lookback and zero when ratePer <= step | open |  |
+| 2026-11-10 | jaegertracing/jaeger | [#10114](https://github.com/jaegertracing/jaeger/issues/10114) [Bug]: Prometheus metrics reader sends the wrong rate window for ratePer values that are not a single unit | open |  |
+| 2026-11-05 | kmesh-net/kmesh | [#1982](https://github.com/kmesh-net/kmesh/issues/1982) kmeshctl waypoint: dataplane-mode label compared case-sensitively, disagrees with the daemon's enrollment check | open |  |
+| 2026-11-02 | jaegertracing/jaeger | [#10023](https://github.com/jaegertracing/jaeger/issues/10023) [Bug]: File sampling provider serves out-of-range probabilistic and ratelimiting params | open |  |
+| 2026-11-01 | kmesh-net/kmesh | [#1980](https://github.com/kmesh-net/kmesh/issues/1980) pkg/utils: HashName maps are read by the dual-engine bpf dump while the workload processor writes them (concurrent map crash) | open |  |
+| 2026-11-01 | kmesh-net/kmesh | [#1979](https://github.com/kmesh-net/kmesh/issues/1979) mcp: config_dump tool returns 404 when the optional mode argument is omitted | open |  |
+| 2026-11-01 | kmesh-net/kmesh | [#1978](https://github.com/kmesh-net/kmesh/issues/1978) pkg/dns: repeated AddDomainInQueue calls for one hostname start duplicate refresh loops that never stop | open |  |
+| 2026-11-01 | kmesh-net/kmesh | [#1976](https://github.com/kmesh-net/kmesh/issues/1976) pkg/utils: Execute reports failure whenever the command writes to stderr, even on exit 0 | open |  |
+| 2026-10-21 | json-schema-org/website | [#2576](https://github.com/json-schema-org/website/issues/2576) 🐛 Bug: Headings with inline code or formatting produce truncated anchor IDs, breaking TOC and internal links | open |  |
 
 </details>
 <!-- PRS:END -->

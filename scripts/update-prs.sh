@@ -59,9 +59,9 @@ $(render_table "$open_json" createdAt)
 
 **Issues reported upstream** (bugs found, reproduced and documented; several carry a ready fix)
 
-| Opened | Repository | Issue | Status |
-|---|---|---|---|
-$(jq -r 'sort_by(.createdAt) | reverse | .[] | "| " + (.createdAt[0:10]) + " | " + .repository.nameWithOwner + " | [#" + (.number|tostring) + "](" + .url + ") " + (.title | gsub("\\|"; "\\|")) + " | " + .state + " |"' <<<"$issues_json")
+| Opened | Repository | Issue | Status | Note |
+|---|---|---|---|---|
+$(jq -r --slurpfile notes "$NOTES" 'sort_by(.createdAt) | reverse | .[] | (.repository.nameWithOwner + "#" + (.number|tostring)) as $key | ($notes[0][$key] // "") as $note | "| " + (.createdAt[0:10]) + " | " + .repository.nameWithOwner + " | [#" + (.number|tostring) + "](" + .url + ") " + (.title | gsub("\\|"; "\\|")) + " | " + .state + " | " + $note + " |"' <<<"$issues_json")
 
 </details>
 $END

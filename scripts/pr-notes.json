@@ -10,5 +10,6 @@
   "asyncapi/website#5880": "Fixes edit-page links that returned 404 for bindings and specification pages.",
   "campusloop-space/dsaloop#1": "Online compiler, CodeMirror 6 workspace and multi-language DSA judge engine.",
   "acm-bitmesra/acm-bitmesra.github.io#3": "Student developer platform with verified identities and rankings.",
-  "kmesh-net/kmesh#1989": "kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed."
+  "kmesh-net/kmesh#1989": "kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed.",
+  "drizzle-team/drizzle-orm#6667": "drizzle-kit pull camel-cased FIRST_NAME as firstNAME since rc.5. Fix with tests is ready on the fork branch fix/kit-pull-camel-screaming-snake; drizzle-orm limits PR creation to collaborators, so the branch is linked from the issue."
 }
