@@ -9,5 +9,6 @@
   "asyncapi/studio#1397": "Adds a Jest runner and unit tests for the server-api and specification services.",
   "asyncapi/website#5880": "Fixes edit-page links that returned 404 for bindings and specification pages.",
   "campusloop-space/dsaloop#1": "Online compiler, CodeMirror 6 workspace and multi-language DSA judge engine.",
-  "acm-bitmesra/acm-bitmesra.github.io#3": "Student developer platform with verified identities and rankings."
+  "acm-bitmesra/acm-bitmesra.github.io#3": "Student developer platform with verified identities and rankings.",
+  "kmesh-net/kmesh#1989": "kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed."
 }
