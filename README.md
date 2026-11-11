@@ -131,7 +131,7 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 16 in review · 14 issues filed (updated 2026-11-10, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 16 in review · 14 issues filed (updated 2026-11-11, refreshed automatically)</summary>
 
 <br>
 
