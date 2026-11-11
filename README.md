@@ -1,137 +1,37 @@
-<div align="center">
+<a href="https://playlikeboy.github.io"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="Shaswat Raj, software engineer: SDE, DevOps and open source" width="100%"></a>
 
-<a href="https://playlikeboy.github.io">
-  <img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="Shaswat Raj — Software Engineer, AI systems and full-stack builder" width="100%">
-</a>
+# Shaswat Raj
 
-<p>
-  <a href="https://playlikeboy.github.io"><img src="https://img.shields.io/badge/Portfolio-1461FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://github.com/playlikeboy"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://gitlab.com/SH20RAJ"><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"></a>
-  <a href="https://www.linkedin.com/in/sh20raj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.youtube.com/@StackShade"><img src="https://img.shields.io/badge/StackShade-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="StackShade"></a>
-  <a href="https://peerlist.io/sh20raj"><img src="https://img.shields.io/badge/Peerlist-00AB46?style=for-the-badge&logo=peerlist&logoColor=white" alt="Peerlist"></a>
-  <a href="mailto:sh20raj@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+Software engineer and B.Tech CSE student at BIT Mesra (graduating May 2028). I ship software that real users depend on, and I fix bugs in open-source projects I don't maintain.
 
-</div>
+**Looking for:** SDE, forward-deployed and DevOps/platform internships and new-grad roles, in India or remote.
+**Portfolio:** [playlikeboy.github.io](https://playlikeboy.github.io) · **Resume:** [PDF](https://playlikeboy.github.io/resume.pdf) · **Email:** [sh20raj@gmail.com](mailto:sh20raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sh20raj/) · [Peerlist](https://peerlist.io/sh20raj)
 
-> **I build products that ship.**  
-> AI systems, full-stack applications, developer tools, and edge-first infrastructure — from idea to production.
+## Work with real users
 
-> 📦 **October 2026:** I consolidated all of my work from [@SH20RAJ](https://web.archive.org/web/20260906091107/https://github.com/SH20RAJ/) into this account — 330+ repositories with full commit history, every commit authored here as @playlikeboy. The complete archive also lives in the [@sh20raj-backup](https://github.com/sh20raj-backup) org and on [GitLab](https://gitlab.com/SH20RAJ).
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ What I'm building
-
-**[CampusLoop](https://campusloop.space/)**  
-A verified campus social platform with feeds, chat, matching, stories, communities, and campus utilities.
-
-**AI-native developer tooling**  
-RAG, agents, MCP servers, automation, search, and practical LLM workflows.
-
-**Open-source infrastructure**  
-Libraries, browser tools, CLI utilities, extensions, and systems that make developers faster.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 How I work
-
-<code>discover → design → build → ship → measure → iterate</code>
-
-I care about:
-- simple architecture before clever architecture
-- fast feedback and real users
-- clean DX and maintainable systems
-- performance at the edge
-- shipping useful things, not just demos
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Selected work
-
-| Project | What it is | Core engineering |
+| Project | What I did | Evidence |
 |---|---|---|
-| **[CampusLoop](https://github.com/playlikeboy/campusloop)** | Verified campus social network with feeds, chat, matching, stories, communities and utilities | <code>Next.js</code> · <code>Cloudflare</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>WebRTC</code> |
-| **[SopKit](https://github.com/playlikeboy/30tools)** | Privacy-first collection of browser utilities running primarily on-device | <code>Web APIs</code> · <code>WebAssembly</code> · <code>SEO</code> · <code>Performance</code> |
-| **[Debo](https://github.com/playlikeboy/debo)** | AI memory and retrieval system | <code>RAG</code> · <code>Embeddings</code> · <code>Hybrid Search</code> · <code>Agents</code> |
-| **[IndexFast](https://github.com/playlikeboy/index-fast)** | Automated indexing and SEO tooling with MCP integrations | <code>Next.js</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>MCP</code> |
-| **[Sanskrit](https://github.com/playlikeboy/sanskrit)** | Experimental programming language with Devanagari syntax | <code>Lexer</code> · <code>Parser</code> · <code>Interpreter</code> · <code>CLI</code> |
-| **[SopPlayer](https://github.com/playlikeboy/Sopplayer)** | Lightweight HTML5 media player distributed through a CDN | <code>JavaScript</code> · <code>Media APIs</code> · <code>Library Engineering</code> |
+| **[Bitotsav '26](https://playlikeboy.github.io/projects/bitotsav-2026)** | Tech lead for BIT Mesra's festival, ~5,000 participants. Built registration, team and points workflows, the admin panel, and signed-QR entry that keeps working in no-network zones (Redis in front of PostgreSQL). Ran it live. | [Write-up](https://www.linkedin.com/posts/sh20raj_bitotsav-2026-what-a-journey-what-a-responsibility-activity-7442608760193216512-Y_nn) |
+| **[SopKit](https://sopkit.github.io)** | 605+ browser tools that process files client-side, with no uploads and no server compute. Built and run solo. 4.3M+ requests and 213K+ visits in 30 days. | [Analytics post](https://www.linkedin.com/posts/sh20raj_indiedev-seo-growthhacking-activity-7392263918737498112-Adp_) · [repo](https://github.com/SopKit/sopkit.github.io) |
+| **[CampusLoop](https://campusloop.space)** | Student-only network gated by college email (accepts the domains of 1,350+ Indian colleges): feeds, marketplace, polls, time capsules. Next.js, PostgreSQL, Cloudflare Workers, WebSockets. | [repo](https://github.com/playlikeboy/campusloop) |
+| **[IndexFast](https://indexfast.co)** | MCP server on Cloudflare Workers that submits URLs to Google, Bing and IndexNow from inside an IDE. TypeScript, Hono. | [repo](https://github.com/playlikeboy/index-fast) |
 
-<details>
-<summary><strong>More things I've built</strong></summary>
+## Merged upstream
 
-[Bitotsav '26](https://www.linkedin.com/posts/shaswatraj_bitotsav-2026-what-a-journey-what-a-responsibility-activity-7442608760193216512-Y_nn) ·
-[KishanAI](https://github.com/playlikeboy/KishanAI) ·
-[Solus](https://github.com/playlikeboy/solus) ·
-[Linespedia](https://github.com/playlikeboy/linepedia) ·
-[SnapAttend](https://github.com/playlikeboy/SnapAttend) ·
-[SketchFlow](https://github.com/playlikeboy/sketchflow) ·
-[CodeSeek](https://github.com/playlikeboy/CodeSeek) ·
-[Picser](https://github.com/playlikeboy/picser)
+| Project | Pull request | Language |
+|---|---|---|
+| google-gemini/gemini-cli | [#20778](https://github.com/google-gemini/gemini-cli/pull/20778): cancelling a turn now also cancels the in-flight chat-compression request (AbortSignal threaded through the execution layers) | TypeScript |
+| mofa-org/mofa | [#1577](https://github.com/mofa-org/mofa/pull/1577): replaced a panicking `unwrap()` in cron schedule parsing with error handling · [#1587](https://github.com/mofa-org/mofa/pull/1587), [#1594](https://github.com/mofa-org/mofa/pull/1594): `#[non_exhaustive]` on public enums · plus 5 docs PRs | Rust |
+| preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331): allow the `list` attribute on every valid input type | TypeScript |
+| codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040): hide "Convert to" when there is nothing to convert to | TypeScript |
 
-</details>
+The gemini-cli and MoFA PRs were authored from my previous account, @SH20RAJ. That account no longer exists, so GitHub shows their author as "ghost". The [gemini-cli merge commit](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) carries my name.
 
----
-
-## 🧠 Areas I enjoy
-
-<table>
-<tr>
-<td><strong>AI Systems</strong><br>RAG · Agents · MCP · Embeddings · LLM workflows</td>
-<td><strong>Product Engineering</strong><br>Next.js · React · TypeScript · Node.js · APIs</td>
-</tr>
-<tr>
-<td><strong>Data & Backend</strong><br>PostgreSQL · MongoDB · Redis · Drizzle · Prisma</td>
-<td><strong>Cloud & Edge</strong><br>Cloudflare Workers · Serverless · Edge Runtime · CI/CD</td>
-</tr>
-<tr>
-<td><strong>Developer Tools</strong><br>npm packages · CLIs · VS Code extensions · Browser APIs</td>
-<td><strong>Infra & Automation</strong><br>WebSockets · queues · crawling · scraping · automation</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Toolbox
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,js,python,rust,react,nextjs,nodejs,tailwind,postgres,mongodb,redis,cloudflare,vercel,docker,git,github,linux,vscode&perline=9" alt="Tech stack">
-
-</div>
-
-<p align="center">
-<strong>TypeScript</strong> · <strong>JavaScript</strong> · <strong>Python</strong> · <strong>Rust</strong> ·
-<strong>React</strong> · <strong>Next.js</strong> · <strong>Node.js</strong> ·
-<strong>PostgreSQL</strong> · <strong>Cloudflare</strong> · <strong>Docker</strong>
-</p>
-
----
-
-## 🤝 Open source
-
-I enjoy entering unfamiliar codebases, understanding the system, and shipping focused fixes.
-
-**Recent contribution areas**
-- **Google Gemini CLI** — environment handling, terminal propagation, PTY / child-process behavior, and tests.
-- **Rocket.Chat** — React state/query fixes, accessibility, type safety, and error handling.
-- **MoFA** — testing infrastructure, report exporters, timeout helpers, and reliability work.
-
-> Good open source work is often less about the size of the diff and more about understanding the system behind it.
+In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author%3Aplaylikeboy) (a CNI nil-pointer panic, duplicate DNS refresh loops) and [Jaeger](https://github.com/jaegertracing/jaeger/pull/10024) (sampling config validation), plus Lexical, Radix UI and micromark. Each fix comes with a reproduced, filed issue. The full list refreshes automatically:
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 16 in review · 14 issues filed (updated 2026-11-11, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 14 in review (+1 draft) · 14 issues filed (updated 2026-11-11, refreshed automatically)</summary>
 
 <br>
 
@@ -141,8 +41,6 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 |---|---|---|---|
 | 2026-11-01 | codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040) fix(inline-toolbar): do not show "Convert to" when there is nothing to convert to | Inline toolbar hides the "Convert to" entry when no conversion target exists. |
 | 2026-10-25 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331) fix(types): allow list attribute on all valid input types | Type definitions allow the list attribute on every valid input type. |
-| 2026-10-22 | campusloop-space/dsaloop | [#1](https://github.com/campusloop-space/dsaloop/pull/1) feat: full online compiler, CodeMirror 6 workspace, and multi-language DSA judge engine | Online compiler, CodeMirror 6 workspace and multi-language DSA judge engine. |
-| 2026-10-22 | acm-bitmesra/acm-bitmesra.github.io | [#3](https://github.com/acm-bitmesra/acm-bitmesra.github.io/pull/3) feat: student developer platform with verified identities, rankings, … | Student developer platform with verified identities and rankings. |
 
 **In review**
 
@@ -160,7 +58,6 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 | 2026-10-25 | radix-ui/primitives | [#4252](https://github.com/radix-ui/primitives/pull/4252) fix(Select): gate hideOthers on positioned state to avoid hiding active trigger (#4250) |  |
 | 2026-10-25 | radix-ui/primitives | [#4251](https://github.com/radix-ui/primitives/pull/4251) fix(DismissableLayer): tie inside pointer capture mark to event identity (#4249) |  |
 | 2026-10-24 | meta/lexical | [#9458](https://github.com/meta/lexical/pull/9458) [lexical-markdown] Feature: Support ordered lists that use the ')' delimiter |  |
-| 2026-10-24 | campusloop-space/opportunities | [#1](https://github.com/campusloop-space/opportunities/pull/1) Add opportunity quality ratings, filters, logos and poster fallbacks _(draft)_ |  |
 | 2026-10-22 | micromark/micromark | [#255](https://github.com/micromark/micromark/pull/255) fix(core-commonmark): allow ordered list with leading zeros to interrupt paragraph |  |
 | 2026-10-22 | pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775) fix(server): suppress redundant keybindings change emission on unchanged revalidation |  |
 | 2026-10-22 | meta/lexical | [#9447](https://github.com/meta/lexical/pull/9447) [lexical-markdown] Bug Fix: Preserve NodeState, mode and detail of text nodes with tabs on import |  |
@@ -187,74 +84,15 @@ I enjoy entering unfamiliar codebases, understanding the system, and shipping fo
 </details>
 <!-- PRS:END -->
 
+## Stack
 
----
+**Languages:** TypeScript, JavaScript, Go, Rust (contributions), Python, C++, SQL, Bash
+**Backend & data:** Node.js, Hono, Express, FastAPI, PostgreSQL, Redis, Drizzle, WebSockets
+**Infra:** Docker, GitHub Actions, GitLab CI, Cloudflare Workers, Linux
+**AI:** OpenAI / Claude / Gemini APIs, RAG, vector search, Model Context Protocol
 
-## 📦 A few numbers
+## About this account
 
-<div align="center">
+In October 2026 I moved my work from @SH20RAJ to this account. About 190 repositories are public here. Most are older experiments and libraries I no longer maintain; the pinned repositories and the projects above are the ones to look at. The complete archive is in the [sh20raj-backup](https://github.com/sh20raj-backup) org and on [GitLab](https://gitlab.com/SH20RAJ). Pull requests from before the move show as "ghost" on GitHub.
 
-| 50+ | 5,000+ | AI × OSS |
-|---|---|---|
-| npm packages created | participants supported by Bitotsav '26 engineering ecosystem | the intersection I keep exploring |
-
-</div>
-
----
-
-## 📊 GitHub
-
-<div align="center">
-
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=playlikeboy&theme=blueberry&show_icons=true&hide_border=true&count_private=true" alt="GitHub statistics">
-
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=playlikeboy&theme=blueberry&show_icons=true&hide_border=true&layout=compact" alt="Most used languages">
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=playlikeboy&theme=github_dark" alt="GitHub profile summary">
-
-</div>
-
-<details>
-<summary><strong>Contribution activity</strong></summary>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/output/github-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/output/github-snake.svg">
-</picture>
-
-</details>
-
----
-
-## 🌐 Elsewhere
-
-<p align="center">
-  <a href="https://sh20raj.gitlab.io">Portfolio</a> ·
-  <a href="https://github.com/playlikeboy">GitHub</a> ·
-  <a href="https://gitlab.com/SH20RAJ">GitLab</a> ·
-  <a href="https://www.linkedin.com/in/sh20raj/">LinkedIn</a> ·
-  <a href="https://dev.to/sh20raj">Dev.to</a> ·
-  <a href="https://peerlist.io/sh20raj">Peerlist</a> ·
-  <a href="https://codepen.io/sh20raj">CodePen</a> ·
-  <a href="https://www.youtube.com/@StackShade">YouTube</a> ·
-  <a href="https://sh20raj.21st.dev/">21st.dev</a>
-</p>
-
-<div align="center">
-
-### Build → Ship → Learn → Repeat
-
-<sub>Engineering is the craft of turning ideas into useful systems.</sub>
-
-</div>
-
----
-
-## 🎬 Featured backup: DrivePlyr20
-
-**[DrivePlyr20](https://github.com/sh20raj-backup/DrivePlyr20)** — Google Drive proxy video player with multiple HTML5 player integrations. The backup repository preserves the original history and includes migration work to use the backup Sopplayer CDN distribution.
+Elsewhere: [Dev.to](https://dev.to/sh20raj) · [YouTube (StackShade)](https://www.youtube.com/@StackShade) · [npm](https://www.npmjs.com/~sh20raj) · [Codeforces](https://codeforces.com/profile/playlikeboy)

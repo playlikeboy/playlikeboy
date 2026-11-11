@@ -10,21 +10,24 @@ NOTES="${NOTES_PATH:-scripts/pr-notes.json}"
 BEGIN='<!-- PRS:BEGIN -->'
 END='<!-- PRS:END -->'
 
-# Only upstream work counts: drop PRs against the user's own repositories.
-own_repo_filter='[.[] | select(.repository.nameWithOwner | startswith($u + "/") | not) | select(.repository.nameWithOwner | startswith("sh20raj-backup/") | not)]'
+# Only upstream work counts: drop PRs against the user's own repositories and
+# against orgs the user owns or runs (own startup org, college club, backups).
+# Those are real work but not "upstream"; counting them reads as padding.
+OWN_ORGS="${OWN_ORGS:-sh20raj-backup,campusloop-space,acm-bitmesra}"
+own_repo_filter='[.[] | (.repository.nameWithOwner | split("/")[0]) as $o | select($o != $u and (($orgs | split(",")) | index($o) | not))]'
 
 fetch() { # $1 = extra gh search flags
   # shellcheck disable=SC2086
   gh search prs --author "$USER_LOGIN" $1 --limit 200 \
     --json repository,number,title,url,createdAt,closedAt,isDraft,state \
-    | jq --arg u "$USER_LOGIN" "$own_repo_filter"
+    | jq --arg u "$USER_LOGIN" --arg orgs "$OWN_ORGS" "$own_repo_filter"
 }
 
 merged_json=$(fetch "--merged")
 open_json=$(fetch "--state open")
 issues_json=$(gh search issues --author "$USER_LOGIN" --limit 200 \
   --json repository,number,title,url,createdAt,state \
-  | jq --arg u "$USER_LOGIN" '[.[] | select(.repository.nameWithOwner | startswith($u + "/") | not) | select(.repository.nameWithOwner | startswith("sh20raj-backup/") | not)]')
+  | jq --arg u "$USER_LOGIN" --arg orgs "$OWN_ORGS" "$own_repo_filter")
 
 [ -f "$NOTES" ] || echo '{}' > "$NOTES"
 
@@ -38,14 +41,15 @@ render_table() { # $1 = json array, $2 = date field, $3 = date header
 }
 
 merged_count=$(jq 'length' <<<"$merged_json")
-open_count=$(jq 'length' <<<"$open_json")
+open_count=$(jq '[.[] | select(.isDraft | not)] | length' <<<"$open_json")
+draft_count=$(jq '[.[] | select(.isDraft)] | length' <<<"$open_json")
 issue_count=$(jq 'length' <<<"$issues_json")
 today=$(date -u +%Y-%m-%d)
 
 block=$(cat <<EOF
 $BEGIN
 <details>
-<summary><strong>Upstream pull requests from @${USER_LOGIN}</strong> — ${merged_count} merged · ${open_count} in review · ${issue_count} issues filed (updated ${today}, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @${USER_LOGIN}</strong> — ${merged_count} merged · ${open_count} in review (+${draft_count} draft) · ${issue_count} issues filed (updated ${today}, refreshed automatically)</summary>
 
 <br>
 
