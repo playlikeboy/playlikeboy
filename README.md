@@ -14,7 +14,7 @@ Software engineer and B.Tech CSE student at BIT Mesra (graduating May 2028). I s
 | **[Bitotsav '26](https://playlikeboy.github.io/projects/bitotsav-2026)** | Tech lead for BIT Mesra's festival, ~5,000 participants. Built registration, team and points workflows, the admin panel, and signed-QR entry that keeps working in no-network zones (Redis in front of PostgreSQL). Ran it live. | [Write-up](https://www.linkedin.com/posts/sh20raj_bitotsav-2026-what-a-journey-what-a-responsibility-activity-7442608760193216512-Y_nn) |
 | **[SopKit](https://sopkit.github.io)** | 605+ browser tools that process files client-side, with no uploads and no server compute. Built and run solo. 4.3M+ requests and 213K+ visits in 30 days. | [Analytics post](https://www.linkedin.com/posts/sh20raj_indiedev-seo-growthhacking-activity-7392263918737498112-Adp_) · [repo](https://github.com/SopKit/sopkit.github.io) |
 | **[CampusLoop](https://campusloop.space)** | Student-only network gated by college email (accepts the domains of 1,350+ Indian colleges): feeds, marketplace, polls, time capsules. Next.js, PostgreSQL, Cloudflare Workers, WebSockets. | [repo](https://github.com/playlikeboy/campusloop) |
-| **[IndexFast](https://indexfast.co)** | MCP server on Cloudflare Workers that submits URLs to Google, Bing and IndexNow from inside an IDE. TypeScript, Hono. | [repo](https://github.com/playlikeboy/index-fast) |
+| **[IndexFast](https://indexfast.co)** | MCP server on Cloudflare Workers that submits URLs to Google, Bing and IndexNow from inside an IDE. TypeScript, Hono. | [repo](https://github.com/playlikeboy/indexfast) |
 
 ## Merged upstream
 
@@ -27,7 +27,7 @@ Software engineer and B.Tech CSE student at BIT Mesra (graduating May 2028). I s
 
 The gemini-cli and MoFA PRs were authored from my previous account, @SH20RAJ. That account no longer exists, so GitHub shows their author as "ghost". The [gemini-cli merge commit](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) carries my name.
 
-In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author%3Aplaylikeboy) (a CNI nil-pointer panic, duplicate DNS refresh loops) and [Jaeger](https://github.com/jaegertracing/jaeger/pull/10024) (sampling config validation), plus Lexical, Radix UI and micromark. Each fix comes with a reproduced, filed issue. The full list refreshes automatically:
+In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author%3Aplaylikeboy) (a CNI nil-pointer panic, duplicate DNS refresh loops) and [Jaeger](https://github.com/jaegertracing/jaeger/pull/10024) (sampling config validation), plus Lexical, Radix UI and micromark. Each fix comes with a reproduced, filed issue ([bug journal](https://playlikeboy.github.io/bugs)). Every number here is linked to its source on [playlikeboy.github.io/proof](https://playlikeboy.github.io/proof). The full list refreshes automatically:
 
 <!-- PRS:BEGIN -->
 <details>
