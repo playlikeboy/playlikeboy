@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+<title id="t">Shaswat Raj: fixes in code I don't maintain</title>
+<desc id="d">A mail header from Shaswat Raj to recruiters hiring for SDE, forward-deployed and DevOps roles, followed by a patch series: merged fixes in gemini-cli, MoFA, Preact and Editor.js, and Go fixes in review at Kmesh and Jaeger.</desc>
+<rect width="1200" height="470" fill="#0f1115"/>
+<g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#e3e6eb">
+<text x="48" y="58" fill="#9aa0aa">From:</text><text x="150" y="58" fill="#e3e6eb">Shaswat Raj &lt;sh20raj@gmail.com&gt;</text>
+<text x="48" y="90" fill="#9aa0aa">To:</text><text x="150" y="90" fill="#e3e6eb">you, hiring for SDE · Forward-Deployed · DevOps</text>
+<text x="48" y="148" font-size="38" font-weight="700"><tspan fill="#9aa0aa" font-weight="400">[PATCH 0/6] </tspan>fixes in code I don't maintain</text>
+<line x1="48" y1="178" x2="1152" y2="178" stroke="#2a2e36"/>
+<text x="48" y="216"><tspan font-weight="700">gemini-cli:</tspan> <tspan fill="#e3e6eb">thread AbortSignal to chat compression</tspan></text>
+<text x="1152" y="216" text-anchor="end" fill="#6fd39a" font-weight="700">[MERGED]</text>
+<text x="48" y="250"><tspan font-weight="700">mofa (Rust):</tspan> <tspan fill="#e3e6eb">panic-free cron parsing; #[non_exhaustive] enums</tspan></text>
+<text x="1152" y="250" text-anchor="end" fill="#6fd39a" font-weight="700">[MERGED]</text>
+<text x="48" y="284"><tspan font-weight="700">preact, editor.js:</tspan> <tspan fill="#e3e6eb">type and toolbar fixes</tspan></text>
+<text x="1152" y="284" text-anchor="end" fill="#6fd39a" font-weight="700">[MERGED]</text>
+<text x="48" y="318"><tspan font-weight="700">kmesh (Go):</tspan> <tspan fill="#e3e6eb">CNI nil-pointer panic; duplicate DNS refresh loops</tspan></text>
+<text x="1152" y="318" text-anchor="end" fill="#f0b65a" font-weight="700">[IN REVIEW]</text>
+<text x="48" y="352"><tspan font-weight="700">jaeger (Go):</tspan> <tspan fill="#e3e6eb">reject out-of-range sampling config</tspan></text>
+<text x="1152" y="352" text-anchor="end" fill="#f0b65a" font-weight="700">[IN REVIEW]</text>
+<line x1="48" y1="394" x2="1152" y2="394" stroke="#2a2e36"/>
+<text x="48" y="430" fill="#9aa0aa" font-size="18"> 12 projects changed, <tspan fill="#6fd39a">6 merged(+)</tspan>, <tspan fill="#f0b65a">15 in review(~)</tspan>, 14 bugs reported(!) · <tspan fill="#8fb2ff">playlikeboy.github.io</tspan></text>
+</g></svg>

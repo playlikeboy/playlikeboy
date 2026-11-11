@@ -1,11 +1,11 @@
-<a href="https://playlikeboy.github.io"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="Shaswat Raj, software engineer: SDE, DevOps and open source" width="100%"></a>
+<a href="https://playlikeboy.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero-dark.svg"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="From Shaswat Raj to you, hiring for SDE, Forward-Deployed and DevOps roles. [PATCH 0/6] fixes in code I don't maintain: merged in gemini-cli, MoFA, Preact and Editor.js; Go fixes in review at Kmesh and Jaeger." width="100%"></picture></a>
 
 # Shaswat Raj
 
 Software engineer and B.Tech CSE student at BIT Mesra (graduating May 2028). I ship software that real users depend on, and I fix bugs in open-source projects I don't maintain.
 
 **Looking for:** SDE, forward-deployed and DevOps/platform internships and new-grad roles, in India or remote.
-**Portfolio:** [playlikeboy.github.io](https://playlikeboy.github.io) · **Resume:** [PDF](https://playlikeboy.github.io/resume.pdf) · **Email:** [sh20raj@gmail.com](mailto:sh20raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sh20raj/) · [Peerlist](https://peerlist.io/sh20raj)
+**Portfolio:** [playlikeboy.github.io](https://playlikeboy.github.io) · **Resume:** [PDF](https://playlikeboy.github.io/resume.pdf) (tailored: [SDE](https://playlikeboy.github.io/resume-sde.pdf) · [FDE](https://playlikeboy.github.io/resume-fde.pdf) · [DevOps](https://playlikeboy.github.io/resume-devops.pdf)) · **Email:** [sh20raj@gmail.com](mailto:sh20raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sh20raj/) · [Peerlist](https://peerlist.io/sh20raj)
 
 ## Work with real users
 

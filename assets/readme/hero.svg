@@ -1,66 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
-  <title id="title">Shaswat Raj — Software Engineer</title>
-  <desc id="desc">Profile header: Shaswat Raj, software engineer for SDE, DevOps and open-source work.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="55%" stop-color="#0B1220"/>
-      <stop offset="100%" stop-color="#11182A"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58A6FF"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#22C55E"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#58A6FF" stop-opacity=".28"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94A3B8" stroke-opacity=".08" stroke-width="1"/>
-    </pattern>
-  </defs>
-
-  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1398" height="418" rx="27" fill="url(#grid)" stroke="#253148"/>
-  <circle cx="1130" cy="90" r="220" fill="url(#glow)"/>
-  <circle cx="1215" cy="118" r="70" fill="none" stroke="#58A6FF" stroke-opacity=".16"/>
-  <circle cx="1215" cy="118" r="110" fill="none" stroke="#8B5CF6" stroke-opacity=".12"/>
-  <circle cx="1215" cy="118" r="150" fill="none" stroke="#22C55E" stroke-opacity=".08"/>
-
-  <g transform="translate(90 76)">
-    <rect width="118" height="30" rx="15" fill="#111827" stroke="#334155"/>
-    <text x="59" y="20" text-anchor="middle" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">PLAYLIKEBOY</text>
-
-    <text x="0" y="100" fill="#F8FAFC" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="64" font-weight="800" letter-spacing="-2">SHASWAT RAJ</text>
-    <rect x="0" y="122" width="720" height="5" rx="2.5" fill="url(#accent)"/>
-
-    <text x="0" y="164" fill="#CBD5E1" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="500">Software Engineer · SDE · DevOps · Open Source</text>
-    <text x="0" y="201" fill="#94A3B8" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">I ship software real users rely on, and fix bugs in projects I don&apos;t own.</text>
-
-    <g transform="translate(0 242)">
-      <g>
-        <rect width="190" height="42" rx="12" fill="#0F172A" stroke="#27415F"/>
-        <circle cx="22" cy="21" r="5" fill="#58A6FF"/>
-        <text x="38" y="27" fill="#E2E8F0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700">AI · RAG · MCP</text>
-      </g>
-      <g transform="translate(204 0)">
-        <rect width="190" height="42" rx="12" fill="#0F172A" stroke="#3E315F"/>
-        <circle cx="22" cy="21" r="5" fill="#8B5CF6"/>
-        <text x="38" y="27" fill="#E2E8F0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700">Next.js · TypeScript</text>
-      </g>
-      <g transform="translate(408 0)">
-        <rect width="190" height="42" rx="12" fill="#0F172A" stroke="#2B4B3E"/>
-        <circle cx="22" cy="21" r="5" fill="#22C55E"/>
-        <text x="38" y="27" fill="#E2E8F0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700">Go · Rust · Linux</text>
-      </g>
-    </g>
-  </g>
-
-  <g transform="translate(1000 250)">
-    <rect width="270" height="92" rx="18" fill="#0B1220" fill-opacity=".86" stroke="#26364F"/>
-    <text x="22" y="30" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">BUILD LOOP</text>
-    <text x="22" y="58" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700">BUILD → SHIP → LEARN</text>
-    <text x="22" y="78" fill="#8B5CF6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">repeat.sh</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+<title id="t">Shaswat Raj: fixes in code I don't maintain</title>
+<desc id="d">A mail header from Shaswat Raj to recruiters hiring for SDE, forward-deployed and DevOps roles, followed by a patch series: merged fixes in gemini-cli, MoFA, Preact and Editor.js, and Go fixes in review at Kmesh and Jaeger.</desc>
+<rect width="1200" height="470" fill="#ffffff"/>
+<g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#1a1d24">
+<text x="48" y="58" fill="#5b616d">From:</text><text x="150" y="58" fill="#1a1d24">Shaswat Raj &lt;sh20raj@gmail.com&gt;</text>
+<text x="48" y="90" fill="#5b616d">To:</text><text x="150" y="90" fill="#1a1d24">you, hiring for SDE · Forward-Deployed · DevOps</text>
+<text x="48" y="148" font-size="38" font-weight="700"><tspan fill="#5b616d" font-weight="400">[PATCH 0/6] </tspan>fixes in code I don't maintain</text>
+<line x1="48" y1="178" x2="1152" y2="178" stroke="#d6dae1"/>
+<text x="48" y="216"><tspan font-weight="700">gemini-cli:</tspan> <tspan fill="#1a1d24">thread AbortSignal to chat compression</tspan></text>
+<text x="1152" y="216" text-anchor="end" fill="#187444" font-weight="700">[MERGED]</text>
+<text x="48" y="250"><tspan font-weight="700">mofa (Rust):</tspan> <tspan fill="#1a1d24">panic-free cron parsing; #[non_exhaustive] enums</tspan></text>
+<text x="1152" y="250" text-anchor="end" fill="#187444" font-weight="700">[MERGED]</text>
+<text x="48" y="284"><tspan font-weight="700">preact, editor.js:</tspan> <tspan fill="#1a1d24">type and toolbar fixes</tspan></text>
+<text x="1152" y="284" text-anchor="end" fill="#187444" font-weight="700">[MERGED]</text>
+<text x="48" y="318"><tspan font-weight="700">kmesh (Go):</tspan> <tspan fill="#1a1d24">CNI nil-pointer panic; duplicate DNS refresh loops</tspan></text>
+<text x="1152" y="318" text-anchor="end" fill="#9b5208" font-weight="700">[IN REVIEW]</text>
+<text x="48" y="352"><tspan font-weight="700">jaeger (Go):</tspan> <tspan fill="#1a1d24">reject out-of-range sampling config</tspan></text>
+<text x="1152" y="352" text-anchor="end" fill="#9b5208" font-weight="700">[IN REVIEW]</text>
+<line x1="48" y1="394" x2="1152" y2="394" stroke="#d6dae1"/>
+<text x="48" y="430" fill="#5b616d" font-size="18"> 12 projects changed, <tspan fill="#187444">6 merged(+)</tspan>, <tspan fill="#9b5208">15 in review(~)</tspan>, 14 bugs reported(!) · <tspan fill="#1b46a8">playlikeboy.github.io</tspan></text>
+</g></svg>
