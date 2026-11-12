@@ -2,7 +2,7 @@
 
 # Shaswat Raj
 
-Software engineer and B.Tech CSE student at BIT Mesra (graduating May 2028). I ship software that real users depend on, and I fix bugs in open-source projects I don't maintain.
+Software engineer, B.Tech CSE student at BIT Mesra (graduating May 2028), and Joint Secretary of [ACM BIT Mesra](https://acm-bitmesra.github.io) for 2026–27. I ship software that real users depend on, and I fix bugs in open-source projects I don't maintain.
 
 **Looking for:** SDE, forward-deployed and DevOps/platform internships and new-grad roles, in India or remote.
 **Portfolio:** [playlikeboy.github.io](https://playlikeboy.github.io) · **Resume:** [PDF](https://playlikeboy.github.io/resume.pdf) (tailored: [SDE](https://playlikeboy.github.io/resume-sde.pdf) · [FDE](https://playlikeboy.github.io/resume-fde.pdf) · [DevOps](https://playlikeboy.github.io/resume-devops.pdf)) · **Email:** [sh20raj@gmail.com](mailto:sh20raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sh20raj/) · [Peerlist](https://peerlist.io/sh20raj)
