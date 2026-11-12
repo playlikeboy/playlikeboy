@@ -16,11 +16,19 @@ END='<!-- PRS:END -->'
 OWN_ORGS="${OWN_ORGS:-sh20raj-backup,campusloop-space,acm-bitmesra}"
 own_repo_filter='[.[] | (.repository.nameWithOwner | split("/")[0]) as $o | select($o != $u and (($orgs | split(",")) | index($o) | not))]'
 
+# GitHub's search index sometimes answers with a partial result set. Query a
+# few times and keep the largest answer so a flaky response never drops rows.
 fetch() { # $1 = extra gh search flags
-  # shellcheck disable=SC2086
-  gh search prs --author "$USER_LOGIN" $1 --limit 200 \
-    --json repository,number,title,url,createdAt,closedAt,isDraft,state \
-    | jq --arg u "$USER_LOGIN" --arg orgs "$OWN_ORGS" "$own_repo_filter"
+  local best="[]" cur n best_n=0
+  for _ in 1 2 3; do
+    # shellcheck disable=SC2086
+    cur=$(gh search prs --author "$USER_LOGIN" $1 --limit 200 \
+      --json repository,number,title,url,createdAt,closedAt,isDraft,state \
+      | jq --arg u "$USER_LOGIN" --arg orgs "$OWN_ORGS" "$own_repo_filter")
+    n=$(jq 'length' <<<"$cur")
+    if [ "$n" -gt "$best_n" ]; then best="$cur"; best_n=$n; fi
+  done
+  printf '%s' "$best"
 }
 
 merged_json=$(fetch "--merged")
