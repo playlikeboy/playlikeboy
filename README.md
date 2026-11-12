@@ -31,7 +31,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 14 in review (+2 draft) · 15 issues filed (updated 2026-11-12, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 15 in review (+2 draft) · 17 issues filed (updated 2026-11-12, refreshed automatically)</summary>
 
 <br>
 
@@ -46,6 +46,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
 | 2026-11-12 | ParadevAI/Paradev | [#9668](https://github.com/ParadevAI/Paradev/pull/9668) fix(desktop): hide favorite models the current session does not offer _(draft)_ | Hides favorite models the current session does not offer (refs #9597). Draft until CI is green; CLA signature pending. |
 | 2026-11-10 | kmesh-net/kmesh | [#1989](https://github.com/kmesh-net/kmesh/pull/1989) fix(cni): print the previous result when CNI_ARGS cannot be loaded | kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed. |
 | 2026-11-10 | kmesh-net/kmesh | [#1987](https://github.com/kmesh-net/kmesh/pull/1987) fix(dns): key the refresh queue by domain to avoid duplicate loops | DNS refresh queue is keyed by domain, so repeated xDS updates for one hostname no longer start duplicate refresh loops. |
@@ -67,6 +68,8 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Issue | Status | Note |
 |---|---|---|---|---|
+| 2026-11-12 | mcp-use/mcp-use | [#3083](https://github.com/mcp-use/mcp-use/issues/3083) docs/examples: add a Cloudflare Workers deployment example + v2 docs page for the TypeScript server | open |  |
+| 2026-11-12 | traceroot-ai/traceroot | [#3012](https://github.com/traceroot-ai/traceroot/issues/3012) bug(worker): OTLP bytes_value attributes are dropped at ingest (extract_attribute_value has no bytesValue branch) | open |  |
 | 2026-11-11 | kmesh-net/kmesh | [#1992](https://github.com/kmesh-net/kmesh/issues/1992) CI: unit-test job runs ./pkg/... only, so ctl/ tests never execute | open |  |
 | 2026-11-10 | drizzle-team/drizzle-orm | [#6667](https://github.com/drizzle-team/drizzle-orm/issues/6667) [BUG]: drizzle-kit pull with camel casing turns FIRST_NAME into firstNAME since rc.5 | open | drizzle-kit pull camel-cased FIRST_NAME as firstNAME since rc.5. Fix with tests is ready on the fork branch fix/kit-pull-camel-screaming-snake; drizzle-orm limits PR creation to collaborators, so the branch is linked from the issue. |
 | 2026-11-10 | kmesh-net/kmesh | [#1991](https://github.com/kmesh-net/kmesh/issues/1991) kmeshctl secret create fails with AlreadyExists when the existing secret has no spi | open |  |
