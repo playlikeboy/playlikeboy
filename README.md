@@ -31,7 +31,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 14 in review (+1 draft) · 15 issues filed (updated 2026-11-11, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 14 in review (+1 draft) · 15 issues filed (updated 2026-11-12, refreshed automatically)</summary>
 
 <br>
 
@@ -77,7 +77,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 | 2026-11-05 | kmesh-net/kmesh | [#1982](https://github.com/kmesh-net/kmesh/issues/1982) kmeshctl waypoint: dataplane-mode label compared case-sensitively, disagrees with the daemon's enrollment check | open |  |
 | 2026-11-02 | jaegertracing/jaeger | [#10023](https://github.com/jaegertracing/jaeger/issues/10023) [Bug]: File sampling provider serves out-of-range probabilistic and ratelimiting params | open |  |
 | 2026-11-01 | kmesh-net/kmesh | [#1980](https://github.com/kmesh-net/kmesh/issues/1980) pkg/utils: HashName maps are read by the dual-engine bpf dump while the workload processor writes them (concurrent map crash) | open |  |
-| 2026-11-01 | kmesh-net/kmesh | [#1979](https://github.com/kmesh-net/kmesh/issues/1979) mcp: config_dump tool returns 404 when the optional mode argument is omitted | open |  |
+| 2026-11-01 | kmesh-net/kmesh | [#1979](https://github.com/kmesh-net/kmesh/issues/1979) mcp: config_dump tool returns 404 when the optional mode argument is omitted | closed |  |
 | 2026-11-01 | kmesh-net/kmesh | [#1978](https://github.com/kmesh-net/kmesh/issues/1978) pkg/dns: repeated AddDomainInQueue calls for one hostname start duplicate refresh loops that never stop | open |  |
 | 2026-11-01 | kmesh-net/kmesh | [#1976](https://github.com/kmesh-net/kmesh/issues/1976) pkg/utils: Execute reports failure whenever the command writes to stderr, even on exit 0 | open |  |
 | 2026-10-21 | json-schema-org/website | [#2576](https://github.com/json-schema-org/website/issues/2576) 🐛 Bug: Headings with inline code or formatting produce truncated anchor IDs, breaking TOC and internal links | closed |  |
