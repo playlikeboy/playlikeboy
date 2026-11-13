@@ -100,4 +100,4 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 In October 2026 I moved my work from @SH20RAJ to this account. About 190 repositories are public here. Most are older experiments and libraries I no longer maintain; the pinned repositories and the projects above are the ones to look at. The complete archive is in the [sh20raj-backup](https://github.com/sh20raj-backup) org and on [GitLab](https://gitlab.com/SH20RAJ). Pull requests from before the move show as "ghost" on GitHub.
 
-Elsewhere: [Dev.to](https://dev.to/sh20raj) · [YouTube (StackShade)](https://www.youtube.com/@StackShade) · [npm](https://www.npmjs.com/~sh20raj) · [Codeforces](https://codeforces.com/profile/playlikeboy)
+Elsewhere: [Dev.to](https://dev.to/sh20raj) · [YouTube (StackShade)](https://www.youtube.com/@StackShade) · [npm](https://www.npmjs.com/~sh20raj) · [Codeforces](https://codeforces.com/profile/playlikeboy) · [Codolio](https://codolio.com/profile/sh20raj)
