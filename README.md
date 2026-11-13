@@ -31,7 +31,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 15 in review (+2 draft) · 17 issues filed (updated 2026-11-13, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 2 merged · 17 in review (+2 draft) · 17 issues filed (updated 2026-11-13, refreshed automatically)</summary>
 
 <br>
 
@@ -46,6 +46,8 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
+| 2026-11-13 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
 | 2026-11-12 | ParadevAI/Paradev | [#9668](https://github.com/ParadevAI/Paradev/pull/9668) fix(desktop): hide favorite models the current session does not offer _(draft)_ | Hides favorite models the current session does not offer (refs #9597). Draft until CI is green; CLA signature pending. |
 | 2026-11-10 | kmesh-net/kmesh | [#1989](https://github.com/kmesh-net/kmesh/pull/1989) fix(cni): print the previous result when CNI_ARGS cannot be loaded | kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed. |
