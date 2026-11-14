@@ -31,7 +31,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 3 merged · 16 in review (+2 draft) · 17 issues filed (updated 2026-11-14, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 3 merged · 17 in review (+1 draft) · 17 issues filed (updated 2026-11-14, refreshed automatically)</summary>
 
 <br>
 
@@ -56,7 +56,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 | 2026-11-05 | kmesh-net/kmesh | [#1983](https://github.com/kmesh-net/kmesh/pull/1983) waypoint: compare dataplane-mode label case-insensitively like the daemon | kmeshctl waypoint compares the istio.io/dataplane-mode label case-insensitively, matching the daemon's enrollment check. |
 | 2026-11-02 | codex-team/editor.js | [#3041](https://github.com/codex-team/editor.js/pull/3041) fix(sanitizer): merge sanitize rules for the same tag instead of overwriting them | Sanitizer merges rules declared for the same tag instead of overwriting them. |
 | 2026-11-02 | jaegertracing/jaeger | [#10024](https://github.com/jaegertracing/jaeger/pull/10024) fix(sampling): Reject out-of-range params in file strategies | File-based remote sampling now rejects probabilistic params outside [0,1] and rate limits outside int32 at startup and on hot reload, instead of serving them to SDKs. |
-| 2026-11-01 | meta/lexical | [#9705](https://github.com/meta/lexical/pull/9705) [lexical-react][lexical-playground] Feature: Draggable individual list items _(draft)_ |  |
+| 2026-11-01 | meta/lexical | [#9705](https://github.com/meta/lexical/pull/9705) [lexical-react][lexical-playground] Feature: Draggable individual list items |  |
 | 2026-11-01 | kmesh-net/kmesh | [#1977](https://github.com/kmesh-net/kmesh/pull/1977) utils: decide command success by exit status, not stderr | utils.Execute decides success by exit status; stderr output alone (e.g. iptables-legacy warnings) no longer counts as failure. |
 | 2026-10-31 | asyncapi/website | [#5880](https://github.com/asyncapi/website/pull/5880) fix: resolve edit links that 404 for bindings and specification pages | Fixes edit-page links that returned 404 for bindings and specification pages. |
 | 2026-10-31 | asyncapi/studio | [#1397](https://github.com/asyncapi/studio/pull/1397) test(studio): add jest runner and unit tests for server-api and specification services | Adds a Jest runner and unit tests for the server-api and specification services. |
