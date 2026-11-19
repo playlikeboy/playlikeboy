@@ -31,7 +31,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 3 merged · 17 in review (+1 draft) · 17 issues filed (updated 2026-11-18, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 3 merged · 18 in review (+1 draft) · 17 issues filed (updated 2026-11-19, refreshed automatically)</summary>
 
 <br>
 
@@ -47,6 +47,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-19 | preactjs/preact | [#5387](https://github.com/preactjs/preact/pull/5387) fix(types): add capture variants of toggle, dialog and command events |  |
 | 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
 | 2026-11-13 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
