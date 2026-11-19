@@ -1,4 +1,4 @@
-<a href="https://playlikeboy.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero-dark.svg"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="From Shaswat Raj to you, hiring for SDE, Forward-Deployed and DevOps roles. [PATCH 0/6] fixes in code I don't maintain: merged in gemini-cli, MoFA, Preact and Editor.js; Go fixes in review at Kmesh and Jaeger." width="100%"></picture></a>
+<a href="https://playlikeboy.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero-dark.svg"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="From Shaswat Raj to you, hiring for SDE, AI, Full-Stack, Founding, Forward-Deployed and DevOps roles. [PATCH 0/7] fixes in code I don't maintain: merged in gemini-cli, T3 Code, MoFA, Preact and Editor.js; Go fixes in review at Kmesh and Jaeger." width="100%"></picture></a>
 
 # Shaswat Raj
 
