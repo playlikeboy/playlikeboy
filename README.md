@@ -2,30 +2,34 @@
 
 # Shaswat Raj
 
-Software engineer, B.Tech CSE student at BIT Mesra (graduating May 2028), and Joint Secretary of [ACM BIT Mesra](https://acm.bitmesra.ac.in/) for 2026–27. I ship software that real users depend on, and I fix bugs in open-source projects I don't maintain.
+Software engineer and founder. B.Tech CSE at BIT Mesra (graduating May 2028), Tech Lead for Bitotsav '26, and Joint Secretary of [ACM BIT Mesra](https://acm.bitmesra.ac.in/) for 2026–27. I build and run my own products alone, from schema to support inbox, and I fix bugs in open-source projects I don't maintain.
 
-**Looking for:** SDE, forward-deployed and DevOps/platform internships and new-grad roles, in India or remote.
-**Portfolio:** [playlikeboy.github.io](https://playlikeboy.github.io) · **Resume:** [PDF](https://playlikeboy.github.io/resume.pdf) (tailored: [SDE](https://playlikeboy.github.io/resume-sde.pdf) · [FDE](https://playlikeboy.github.io/resume-fde.pdf) · [DevOps](https://playlikeboy.github.io/resume-devops.pdf)) · **Email:** [sh20raj@gmail.com](mailto:sh20raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sh20raj/) · [Peerlist](https://peerlist.io/sh20raj)
+**Looking for:** internships and new-grad roles, in India or remote, at startups or large tech companies. Evidence by role, each with a tailored résumé: [SDE](https://playlikeboy.github.io/roles/sde) · [AI Engineer](https://playlikeboy.github.io/roles/ai) · [Full-Stack / Product](https://playlikeboy.github.io/roles/fullstack) · [Founding Engineer](https://playlikeboy.github.io/roles/founding) · [Forward Deployed](https://playlikeboy.github.io/roles/fde) · [DevOps / Platform](https://playlikeboy.github.io/roles/devops)
+**Portfolio:** [playlikeboy.github.io](https://playlikeboy.github.io) · **Resume:** [PDF](https://playlikeboy.github.io/resume.pdf) · [my story](https://playlikeboy.github.io/story) · **Email:** [sh20raj@gmail.com](mailto:sh20raj@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sh20raj/) · [Peerlist](https://peerlist.io/sh20raj)
 
-## Work with real users
+## Products I founded and systems I led
 
 | Project | What I did | Evidence |
 |---|---|---|
 | **[Bitotsav '26](https://playlikeboy.github.io/projects/bitotsav-2026)** | Tech lead for BIT Mesra's festival, ~5,000 participants. Built registration, team and points workflows, the admin panel, and signed-QR entry that keeps working in no-network zones (Redis in front of PostgreSQL). Ran it live. | [Write-up](https://www.linkedin.com/posts/sh20raj_bitotsav-2026-what-a-journey-what-a-responsibility-activity-7442608760193216512-Y_nn) |
 | **[SopKit](https://sopkit.github.io)** | 605+ browser tools that process files client-side, with no uploads and no server compute. Built and run solo. 4.3M+ requests and 213K+ visits in 30 days. | [Analytics post](https://www.linkedin.com/posts/sh20raj_indiedev-seo-growthhacking-activity-7392263918737498112-Adp_) · [repo](https://github.com/SopKit/sopkit.github.io) |
-| **[CampusLoop](https://campusloop.space)** | Student-only network gated by college email (accepts the domains of 1,350+ Indian colleges): feeds, marketplace, polls, time capsules. Next.js, PostgreSQL, Cloudflare Workers, WebSockets. | [repo](https://github.com/playlikeboy/campusloop) |
-| **[IndexFast](https://indexfast.co)** | MCP server on Cloudflare Workers that submits URLs to Google, Bing and IndexNow from inside an IDE. TypeScript, Hono. | [repo](https://github.com/playlikeboy/indexfast) |
+| **[CampusLoop](https://campusloop.space)** | Founder. Student-only network gated by college email (accepts the domains of 1,350+ Indian colleges): feeds, marketplace, polls, time capsules. Next.js, PostgreSQL, Cloudflare Workers, WebSockets. | [repo](https://github.com/playlikeboy/campusloop) |
+| **[IndexFast](https://indexfast.co)** | Founder, sole engineer. Agent-native search indexing: an MCP server, REST API and npm CLI over one core; a Workers cron submits URLs to IndexNow, Bing and Search Console. | [case study](https://playlikeboy.github.io/projects/indexfast) · [repo](https://github.com/playlikeboy/indexfast) |
+| **[RUXs](https://ruxs.in)** | Founder, sole engineer. Daily tiffin and water-can subscriptions that replace a vendor's WhatsApp chats and paper ledger: household app, merchant panel, admin console. | [case study](https://playlikeboy.github.io/projects/ruxs) · [repo](https://github.com/playlikeboy/ruxs) |
+| **[ScriptlyStore](https://scriptly.store)** | Founder, sole engineer. Code marketplace: Razorpay checkout priced on the server, downloads only after a verified purchase, AES-256-GCM payment links. | [case study](https://playlikeboy.github.io/projects/scriptly) · [repo](https://github.com/playlikeboy/scriptly.store) |
+| **[Debo](https://debo.life)** | Founder, sole engineer. Personal AI memory: ingests notes, links and audio and answers from them in chat. | [case study](https://playlikeboy.github.io/projects/debo) · [repo](https://github.com/playlikeboy/debo.life) |
 
 ## Merged upstream
 
 | Project | Pull request | Language |
 |---|---|---|
-| google-gemini/gemini-cli | [#20778](https://github.com/google-gemini/gemini-cli/pull/20778): cancelling a turn now also cancels the in-flight chat-compression request (AbortSignal threaded through the execution layers) | TypeScript |
+| google-gemini/gemini-cli | [#20778](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) ([write-up](https://playlikeboy.github.io/blog/cancelling-a-turn-in-gemini-cli)): cancelling a turn now also cancels the in-flight chat-compression request (AbortSignal threaded through the execution layers) | TypeScript |
 | mofa-org/mofa | [#1577](https://github.com/mofa-org/mofa/pull/1577): replaced a panicking `unwrap()` in cron schedule parsing with error handling · [#1587](https://github.com/mofa-org/mofa/pull/1587), [#1594](https://github.com/mofa-org/mofa/pull/1594): `#[non_exhaustive]` on public enums · plus 5 docs PRs | Rust |
+| pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775): the server no longer announces a keybindings change when a revalidation finds nothing changed (spurious toasts on Windows) | TypeScript |
 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331): allow the `list` attribute on every valid input type | TypeScript |
 | codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040): hide "Convert to" when there is nothing to convert to | TypeScript |
 
-The gemini-cli and MoFA PRs were authored from my previous account, @SH20RAJ. That account no longer exists, so GitHub shows their author as "ghost". The [gemini-cli merge commit](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) carries my name.
+The gemini-cli and MoFA PRs were authored from my previous account, @SH20RAJ. That account no longer exists, so GitHub shows their author as "ghost", and the gemini-cli pull request page no longer loads. The [gemini-cli merge commit](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) carries my name.
 
 In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author%3Aplaylikeboy) (a CNI nil-pointer panic, duplicate DNS refresh loops) and [Jaeger](https://github.com/jaegertracing/jaeger/pull/10024) (sampling config validation), plus Lexical, Radix UI and micromark. Each fix comes with a reproduced, filed issue ([bug journal](https://playlikeboy.github.io/bugs)). Every number here is linked to its source on [playlikeboy.github.io/proof](https://playlikeboy.github.io/proof). The full list refreshes automatically:
 
@@ -92,9 +96,16 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 </details>
 <!-- PRS:END -->
 
+## Writing
+
+- [Ctrl+C in gemini-cli didn't cancel chat compression](https://playlikeboy.github.io/blog/cancelling-a-turn-in-gemini-cli)
+- [A nil pointer in Kmesh's CNI plugin, and the fallback that never ran](https://playlikeboy.github.io/blog/kmesh-cni-nil-crash)
+- [Designing IndexFast's MCP server for agents, not people](https://playlikeboy.github.io/blog/an-mcp-server-agents-can-use)
+
 ## Stack
 
 **Languages:** TypeScript, JavaScript, Go, Rust (contributions), Python, C++, SQL, Bash
+**Frontend:** React, Next.js, Tailwind CSS, WebAssembly
 **Backend & data:** Node.js, Hono, Express, FastAPI, PostgreSQL, Redis, Drizzle, WebSockets
 **Infra:** Docker, GitHub Actions, GitLab CI, Cloudflare Workers, Linux
 **AI:** OpenAI / Claude / Gemini APIs, RAG, vector search, Model Context Protocol
