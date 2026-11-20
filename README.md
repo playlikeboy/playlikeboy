@@ -35,7 +35,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 19 in review (+1 draft) · 18 issues filed (updated 2026-11-19, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 19 in review (+1 draft) · 18 issues filed (updated 2026-11-20, refreshed automatically)</summary>
 
 <br>
 
