@@ -5,7 +5,7 @@
 <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#e3e6eb">
 <text x="48" y="58" fill="#9aa0aa">From:</text><text x="150" y="58" fill="#e3e6eb">Shaswat Raj &lt;sh20raj@gmail.com&gt;</text>
 <text x="48" y="90" fill="#9aa0aa">To:</text><text x="150" y="90" fill="#e3e6eb">you, hiring: SDE · AI · Full-Stack · Founding · FDE · DevOps</text>
-<text x="48" y="148" font-size="38" font-weight="700"><tspan fill="#9aa0aa" font-weight="400">[PATCH 0/7] </tspan>fixes in code I don't maintain</text>
+<text x="48" y="148" font-size="38" font-weight="700"><tspan fill="#9aa0aa" font-weight="400">[PATCH 0/8] </tspan>fixes in code I don't maintain</text>
 <line x1="48" y1="178" x2="1152" y2="178" stroke="#2a2e36"/>
 <text x="48" y="216"><tspan font-weight="700">gemini-cli:</tspan> <tspan fill="#e3e6eb">thread AbortSignal to chat compression</tspan></text>
 <text x="1152" y="216" text-anchor="end" fill="#6fd39a" font-weight="700">[MERGED]</text>
