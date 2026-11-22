@@ -35,7 +35,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 19 in review (+0 draft) · 18 issues filed (updated 2026-11-21, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 4 merged · 20 in review (+0 draft) · 18 issues filed (updated 2026-11-22, refreshed automatically)</summary>
 
 <br>
 
@@ -52,6 +52,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-22 | WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850) Log the right URL and the index in dead link validation messages |  |
 | 2026-11-19 | OneBusAway/wayfinder | [#730](https://github.com/OneBusAway/wayfinder/pull/730) fix(search): tell the user when a search fails |  |
 | 2026-11-19 | OneBusAway/wayfinder | [#728](https://github.com/OneBusAway/wayfinder/pull/728) fix(trip-planner): show an icon for subway and cable car legs |  |
 | 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
