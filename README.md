@@ -35,7 +35,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 6 merged · 18 in review (+0 draft) · 18 issues filed (updated 2026-11-23, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 7 merged · 17 in review (+0 draft) · 18 issues filed (updated 2026-11-24, refreshed automatically)</summary>
 
 <br>
 
@@ -43,6 +43,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-24 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page |  |
 | 2026-11-23 | OneBusAway/wayfinder | [#730](https://github.com/OneBusAway/wayfinder/pull/730) fix(search): tell the user when a search fails |  |
 | 2026-11-23 | OneBusAway/wayfinder | [#728](https://github.com/OneBusAway/wayfinder/pull/728) fix(trip-planner): show an icon for subway and cable car legs |  |
 | 2026-11-19 | preactjs/preact | [#5387](https://github.com/preactjs/preact/pull/5387) fix(types): add capture variants of toggle, dialog and command events |  |
@@ -56,7 +57,6 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 |---|---|---|---|
 | 2026-11-22 | WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850) Log the right URL and the index in dead link validation messages |  |
 | 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
-| 2026-11-13 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
 | 2026-11-10 | kmesh-net/kmesh | [#1989](https://github.com/kmesh-net/kmesh/pull/1989) fix(cni): print the previous result when CNI_ARGS cannot be loaded | kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed. |
 | 2026-11-10 | kmesh-net/kmesh | [#1987](https://github.com/kmesh-net/kmesh/pull/1987) fix(dns): key the refresh queue by domain to avoid duplicate loops | DNS refresh queue is keyed by domain, so repeated xDS updates for one hostname no longer start duplicate refresh loops. |
