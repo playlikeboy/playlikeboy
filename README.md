@@ -34,7 +34,7 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 9 merged · 24 in review (+0 draft) · 18 issues filed (updated 2026-11-26, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 24 merged · 33 in review (+0 draft) · 18 issues filed (updated 2026-11-26, refreshed automatically)</summary>
 
 <br>
 
@@ -42,6 +42,21 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-26 | shoka-jp/obd2-mcp | [#61](https://github.com/shoka-jp/obd2-mcp/pull/61) feat: add Mode 01 PIDs 1F (run_time) and 21 (distance_with_mil) |  |
+| 2026-11-26 | codepacct/codepact-conventions | [#9](https://github.com/codepacct/codepact-conventions/pull/9) feat(cli): validate CLI arguments and cover exit codes with integration tests |  |
+| 2026-11-26 | codepacct/codepact-core | [#16](https://github.com/codepacct/codepact-core/pull/16) fix(cli): deduplicate overlapping and symlinked scan paths |  |
+| 2026-11-26 | codepacct/codepact-core | [#15](https://github.com/codepacct/codepact-core/pull/15) fix(report): escape Markdown table cells for unusual paths and messages |  |
+| 2026-11-26 | stratus-emulator/stratus | [#32](https://github.com/stratus-emulator/stratus/pull/32) dynamodb: report ConsumedCapacity for single-item, query/scan, batch and transaction ops |  |
+| 2026-11-26 | pacocartones/free-llm-api-hub | [#868](https://github.com/pacocartones/free-llm-api-hub/pull/868) feat(site): add Cite this dataset block to /api/ and /quality/ |  |
+| 2026-11-26 | stratus-emulator/stratus | [#23](https://github.com/stratus-emulator/stratus/pull/23) dynamodb: reject reserved words in expressions |  |
+| 2026-11-26 | mohdzain98/surfmind | [#25](https://github.com/mohdzain98/surfmind/pull/25) test: add regression tests for search notices and timing |  |
+| 2026-11-26 | Haseeb-MernStack/commune | [#288](https://github.com/Haseeb-MernStack/commune/pull/288) feat(web): show password strength while signing up |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#746](https://github.com/OneBusAway/wayfinder/pull/746) feat(trip-planner): show intermediate stops for transit legs | Displays intermediate stops along transit legs in the trip planner UI using OTP GraphQL data. |
+| 2026-11-26 | OneBusAway/watchdog | [#423](https://github.com/OneBusAway/watchdog/pull/423) fix(gtfs): resolve DST candidate gaps, LookupTrip availability, and compile cleanups (#306) | Fixes midnight and spring-forward DST candidate date handling in ClassifyTrip, adds ScheduleAvailable/Stale status to LookupTrip, and disables trip-index retention without Postgres. |
+| 2026-11-26 | traceopt-ai/traceml | [#688](https://github.com/traceopt-ai/traceml/pull/688) fix(display): hide Step memory NO_GPU row in model diagnostics |  |
+| 2026-11-26 | shoka-jp/obd2-mcp | [#43](https://github.com/shoka-jp/obd2-mcp/pull/43) feat: add evap small-leak mock scenario |  |
+| 2026-11-26 | shoka-jp/obd2-mcp | [#42](https://github.com/shoka-jp/obd2-mcp/pull/42) test: add unit tests for Mode 01 PID parse and encode formulas |  |
+| 2026-11-26 | WordPress/openverse | [#5862](https://github.com/WordPress/openverse/pull/5862) Serve Redoc and Swagger UI via drf-spectacular-sidecar | Serves Redoc and Swagger UI static assets locally via drf-spectacular-sidecar instead of @latest CDN scripts. |
 | 2026-11-26 | OneBusAway/sidecar | [#87](https://github.com/OneBusAway/sidecar/pull/87) fix(render): set static gorush URL, add Android config, mark Stripe optional | Sets static gorush URL, adds Android push config, marks Stripe optional in Render Blueprints, and updates the production runbook. |
 | 2026-11-26 | WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850) Log the right URL and the index in dead link validation messages | Fixes dead link validation messages to log the exact URL and index. |
 | 2026-11-24 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page | Makes inline toolbar tool shortcuts work independently across multiple Editor instances on one page. |
@@ -56,14 +71,23 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
-| 2026-11-26 | OneBusAway/watchdog | [#423](https://github.com/OneBusAway/watchdog/pull/423) fix(gtfs): resolve DST candidate gaps, LookupTrip availability, and compile cleanups (#306) | Fixes midnight and spring-forward DST candidate date handling in ClassifyTrip, adds ScheduleAvailable/Stale status to LookupTrip, and disables trip-index retention without Postgres. |
+| 2026-11-26 | OneBusAway/wayfinder | [#753](https://github.com/OneBusAway/wayfinder/pull/753) fix(surveys): omit blank userId params and guard non-array survey payloads |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#751](https://github.com/OneBusAway/wayfinder/pull/751) fix(alerts): check upstream HTTP status and validate multi-period GTFS-RT alerts |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#750](https://github.com/OneBusAway/wayfinder/pull/750) fix(service-alerts): clamp stale page state and label pagination controls |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#749](https://github.com/OneBusAway/wayfinder/pull/749) fix(routes): show error and retry action when route list fails to load |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#748](https://github.com/OneBusAway/wayfinder/pull/748) fix(geocoder): guard queryPrediction entries, missing Bing addresses, and HTTP errors |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#747](https://github.com/OneBusAway/wayfinder/pull/747) fix(alerts): sanitize alert link URLs and react to locale updates |  |
+| 2026-11-26 | yairbarak22/TutorAI | [#24](https://github.com/yairbarak22/TutorAI/pull/24) fix(llm): friendly error message and demo fallback on API budget limit |  |
+| 2026-11-26 | devkitshq/notifkit | [#65](https://github.com/devkitshq/notifkit/pull/65) feat(provider-teams): add Microsoft Teams channel and Workflows provider |  |
+| 2026-11-26 | quanta-js/quanta | [#223](https://github.com/quanta-js/quanta/pull/223) test(core): raise create-store branch coverage |  |
+| 2026-11-26 | jannskiee/floe | [#1029](https://github.com/jannskiee/floe/pull/1029) fix(desktop): ignore repeated keys on the receive action button |  |
+| 2026-11-26 | Blivius/renpet | [#10](https://github.com/Blivius/renpet/pull/10) fix(records): only warn about Claude Code cleanup when cleanupPeriodDays < 90 |  |
+| 2026-11-26 | SopKit/sopkit.github.io | [#5](https://github.com/SopKit/sopkit.github.io/pull/5) Add loan EMI calculator (AdSense-ready, standalone page) |  |
 | 2026-11-26 | OneBusAway/maglev | [#2237](https://github.com/OneBusAway/maglev/pull/2237) Memoize block sort and sequence lookups | Adds memoized block trip sequence lookups and shared block shift sorting, cutting arrival-for-location SQL queries from 426 to 176. |
 | 2026-11-26 | better-auth/better-auth | [#12993](https://github.com/better-auth/better-auth/pull/12993) perf: cache HMAC CryptoKey across signing and verification | Adds a bounded per-SubtleCrypto LRU cache for imported HMAC keys across cookie, bearer, and two-factor verification. |
 | 2026-11-26 | better-auth/better-auth | [#12992](https://github.com/better-auth/better-auth/pull/12992) fix(oauth-provider): scope refresh family invalidation to authorization grant | Scopes OAuth refresh token family invalidation to the authorization code grant rather than revoking unrelated user grants. |
-| 2026-11-26 | WordPress/openverse | [#5862](https://github.com/WordPress/openverse/pull/5862) Serve Redoc and Swagger UI via drf-spectacular-sidecar | Serves Redoc and Swagger UI static assets locally via drf-spectacular-sidecar instead of @latest CDN scripts. |
 | 2026-11-26 | OneBusAway/sdk-config | [#35](https://github.com/OneBusAway/sdk-config/pull/35) fix(openapi): default trips-for-route includeStatus/includeSchedule to true | Defaults includeStatus and includeSchedule query parameters to true in trips-for-route OpenAPI spec. |
 | 2026-11-26 | OneBusAway/waystation | [#122](https://github.com/OneBusAway/waystation/pull/122) test(board): add Playwright 1920x1080 single-board layout check | Adds a Playwright 1920x1080 single-board layout regression check and shares compact layout threshold logic. |
-| 2026-11-26 | OneBusAway/wayfinder | [#746](https://github.com/OneBusAway/wayfinder/pull/746) feat(trip-planner): show intermediate stops for transit legs | Displays intermediate stops along transit legs in the trip planner UI using OTP GraphQL data. |
 | 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
 | 2026-11-10 | kmesh-net/kmesh | [#1989](https://github.com/kmesh-net/kmesh/pull/1989) fix(cni): print the previous result when CNI_ARGS cannot be loaded | kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed. |
@@ -85,7 +109,7 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Opened | Repository | Issue | Status | Note |
 |---|---|---|---|---|
-| 2026-11-19 | OneBusAway/wayfinder | [#729](https://github.com/OneBusAway/wayfinder/issues/729) Trip planner: show the stops a transit leg passes | open |  |
+| 2026-11-19 | OneBusAway/wayfinder | [#729](https://github.com/OneBusAway/wayfinder/issues/729) Trip planner: show the stops a transit leg passes | closed |  |
 | 2026-11-12 | mcp-use/mcp-use | [#3083](https://github.com/mcp-use/mcp-use/issues/3083) docs/examples: add a Cloudflare Workers deployment example + v2 docs page for the TypeScript server | open |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3012](https://github.com/traceroot-ai/traceroot/issues/3012) bug(worker): OTLP bytes_value attributes are dropped at ingest (extract_attribute_value has no bytesValue branch) | open |  |
 | 2026-11-11 | kmesh-net/kmesh | [#1992](https://github.com/kmesh-net/kmesh/issues/1992) CI: unit-test job runs ./pkg/... only, so ctl/ tests never execute | open |  |
