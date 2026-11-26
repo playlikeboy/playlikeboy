@@ -35,7 +35,7 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 7 merged · 17 in review (+0 draft) · 18 issues filed (updated 2026-11-25, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 7 merged · 26 in review (+0 draft) · 18 issues filed (updated 2026-11-26, refreshed automatically)</summary>
 
 <br>
 
@@ -55,6 +55,15 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-26 | OneBusAway/maglev | [#2237](https://github.com/OneBusAway/maglev/pull/2237) Memoize block sort and sequence lookups |  |
+| 2026-11-26 | better-auth/better-auth | [#12993](https://github.com/better-auth/better-auth/pull/12993) perf: cache HMAC CryptoKey across signing and verification |  |
+| 2026-11-26 | better-auth/better-auth | [#12992](https://github.com/better-auth/better-auth/pull/12992) fix(oauth-provider): scope refresh family invalidation to authorization grant |  |
+| 2026-11-26 | WordPress/openverse | [#5862](https://github.com/WordPress/openverse/pull/5862) Pin Redoc to 2.5.4 in Spectacular settings |  |
+| 2026-11-26 | OneBusAway/sdk-config | [#35](https://github.com/OneBusAway/sdk-config/pull/35) fix(openapi): default trips-for-route includeStatus/includeSchedule to true |  |
+| 2026-11-26 | OneBusAway/sidecar | [#87](https://github.com/OneBusAway/sidecar/pull/87) fix(render): set static gorush URL, add Android config, mark Stripe optional |  |
+| 2026-11-26 | OneBusAway/maglev | [#2236](https://github.com/OneBusAway/maglev/pull/2236) Match HTTP URL schemes case-insensitively |  |
+| 2026-11-26 | OneBusAway/waystation | [#122](https://github.com/OneBusAway/waystation/pull/122) test(board): add Playwright 1920x1080 single-board layout check |  |
+| 2026-11-26 | OneBusAway/wayfinder | [#746](https://github.com/OneBusAway/wayfinder/pull/746) feat(trip-planner): show intermediate stops for transit legs |  |
 | 2026-11-22 | WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850) Log the right URL and the index in dead link validation messages |  |
 | 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
