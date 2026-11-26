@@ -1,4 +1,4 @@
-<a href="https://playlikeboy.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero-dark.svg"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="From Shaswat Raj to you, hiring for SDE, AI, Full-Stack, Founding, Forward-Deployed and DevOps roles. [PATCH 0/8] fixes in code I don't maintain: merged in gemini-cli, T3 Code, MoFA, Preact and Editor.js; Go fixes in review at Kmesh and Jaeger." width="100%"></picture></a>
+<a href="https://playlikeboy.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero-dark.svg"><img src="https://raw.githubusercontent.com/playlikeboy/playlikeboy/main/assets/readme/hero.svg" alt="From Shaswat Raj to you, hiring for SDE, AI, Full-Stack, Founding, Forward-Deployed and DevOps roles. Fixes in code I don't maintain: merged in OneBusAway, Openverse, Preact, Editor.js and T3 Code; fixes in review at OneBusAway, Better Auth, Openverse, Kmesh and Jaeger." width="100%"></picture></a>
 
 # Shaswat Raj
 
@@ -23,19 +23,18 @@ Software engineer and founder. B.Tech CSE at BIT Mesra (graduating May 2028), Te
 
 | Project | Pull request | Language |
 |---|---|---|
-| google-gemini/gemini-cli | [#20778](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) ([write-up](https://playlikeboy.github.io/blog/cancelling-a-turn-in-gemini-cli)): cancelling a turn now also cancels the in-flight chat-compression request (AbortSignal threaded through the execution layers) | TypeScript |
-| mofa-org/mofa | [#1577](https://github.com/mofa-org/mofa/pull/1577): replaced a panicking `unwrap()` in cron schedule parsing with error handling · [#1587](https://github.com/mofa-org/mofa/pull/1587), [#1594](https://github.com/mofa-org/mofa/pull/1594): `#[non_exhaustive]` on public enums · plus 5 docs PRs | Rust |
-| pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775): the server no longer announces a keybindings change when a revalidation finds nothing changed (spurious toasts on Windows) | TypeScript |
+| OneBusAway/sidecar | [#87](https://github.com/OneBusAway/sidecar/pull/87): set static gorush URL, add Android config, mark Stripe optional in Render Blueprints, and update production runbook | Go / YAML |
+| OneBusAway/wayfinder | [#728](https://github.com/OneBusAway/wayfinder/pull/728): show subway and cable car icons for transit legs · [#730](https://github.com/OneBusAway/wayfinder/pull/730): show clear error states on failed searches | TypeScript / Svelte |
+| WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850): log the exact URL and index in dead link validation messages | Python |
+| pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775): suppress redundant keybindings change notifications when revalidation finds no diff (spurious toasts on Windows) | TypeScript |
 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331): allow the `list` attribute on every valid input type · [#5387](https://github.com/preactjs/preact/pull/5387): typed capture variants of the toggle, dialog and command event handlers | TypeScript |
-| codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040): hide "Convert to" when there is nothing to convert to | TypeScript |
+| codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040): hide "Convert to" when there is nothing to convert to · [#3048](https://github.com/codex-team/editor.js/pull/3048): isolate inline toolbar shortcuts across multiple Editor instances | TypeScript |
 
-The gemini-cli and MoFA PRs were authored from my previous account, @SH20RAJ. That account no longer exists, so GitHub shows their author as "ghost", and the gemini-cli pull request page no longer loads. The [gemini-cli merge commit](https://github.com/google-gemini/gemini-cli/commit/f11bd3d0797f1626929b9d095efcb5816c18900c) carries my name.
-
-In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author%3Aplaylikeboy) (a CNI nil-pointer panic, duplicate DNS refresh loops) and [Jaeger](https://github.com/jaegertracing/jaeger/pull/10024) (sampling config validation), plus Lexical, Radix UI and micromark. Each fix comes with a reproduced, filed issue ([bug journal](https://playlikeboy.github.io/bugs)). Every number here is linked to its source on [playlikeboy.github.io/proof](https://playlikeboy.github.io/proof). The full list refreshes automatically:
+In review: transit backend & monitoring improvements in [OneBusAway](https://github.com/pulls?q=author%3Aplaylikeboy+org%3AOneBusAway+is%3Aopen) ([maglev#2237](https://github.com/OneBusAway/maglev/pull/2237) block sequence memoization cutting query load 58%, [watchdog#423](https://github.com/OneBusAway/watchdog/pull/423) DST trip classification fixes, [wayfinder#746](https://github.com/OneBusAway/wayfinder/pull/746), [waystation#122](https://github.com/OneBusAway/waystation/pull/122)), [Better Auth](https://github.com/better-auth/better-auth/pulls?q=author%3Aplaylikeboy) (OAuth refresh-family scoping & bounded HMAC CryptoKey LRU cache), [Openverse](https://github.com/WordPress/openverse/pull/5862), [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author%3Aplaylikeboy), [Jaeger](https://github.com/jaegertracing/jaeger/pull/10024), Lexical, Radix UI and micromark. Each fix comes with a reproduced test case or maintainer-triaged issue ([bug journal](https://playlikeboy.github.io/bugs)). Every item here is tracked live below:
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 7 merged · 26 in review (+0 draft) · 18 issues filed (updated 2026-11-26, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 9 merged · 24 in review (+0 draft) · 18 issues filed (updated 2026-11-26, refreshed automatically)</summary>
 
 <br>
 
@@ -43,11 +42,13 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
-| 2026-11-24 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page |  |
-| 2026-11-23 | OneBusAway/wayfinder | [#730](https://github.com/OneBusAway/wayfinder/pull/730) fix(search): tell the user when a search fails |  |
-| 2026-11-23 | OneBusAway/wayfinder | [#728](https://github.com/OneBusAway/wayfinder/pull/728) fix(trip-planner): show an icon for subway and cable car legs |  |
-| 2026-11-19 | preactjs/preact | [#5387](https://github.com/preactjs/preact/pull/5387) fix(types): add capture variants of toggle, dialog and command events |  |
-| 2026-11-14 | pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775) fix(server): suppress redundant keybindings change emission on unchanged revalidation |  |
+| 2026-11-26 | OneBusAway/sidecar | [#87](https://github.com/OneBusAway/sidecar/pull/87) fix(render): set static gorush URL, add Android config, mark Stripe optional | Sets static gorush URL, adds Android push config, marks Stripe optional in Render Blueprints, and updates the production runbook. |
+| 2026-11-26 | WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850) Log the right URL and the index in dead link validation messages | Fixes dead link validation messages to log the exact URL and index. |
+| 2026-11-24 | codex-team/editor.js | [#3048](https://github.com/codex-team/editor.js/pull/3048) fix(inline-toolbar): make tool shortcuts work with several Editors on a page | Makes inline toolbar tool shortcuts work independently across multiple Editor instances on one page. |
+| 2026-11-23 | OneBusAway/wayfinder | [#730](https://github.com/OneBusAway/wayfinder/pull/730) fix(search): tell the user when a search fails | Displays clear error feedback instead of silently swallowing failed search requests. |
+| 2026-11-23 | OneBusAway/wayfinder | [#728](https://github.com/OneBusAway/wayfinder/pull/728) fix(trip-planner): show an icon for subway and cable car legs | Renders subway and cable-car icons on transit legs in the trip planner. |
+| 2026-11-19 | preactjs/preact | [#5387](https://github.com/preactjs/preact/pull/5387) fix(types): add capture variants of toggle, dialog and command events | Adds typed capture variants for toggle, dialog, and command event handlers. |
+| 2026-11-14 | pingdotgg/t3code | [#23775](https://github.com/pingdotgg/t3code/pull/23775) fix(server): suppress redundant keybindings change emission on unchanged revalidation | Suppresses redundant keybindings change notifications when revalidation detects no diff. |
 | 2026-11-01 | codex-team/editor.js | [#3040](https://github.com/codex-team/editor.js/pull/3040) fix(inline-toolbar): do not show "Convert to" when there is nothing to convert to | Inline toolbar hides the "Convert to" entry when no conversion target exists. |
 | 2026-10-25 | preactjs/preact | [#5331](https://github.com/preactjs/preact/pull/5331) fix(types): allow list attribute on all valid input types | Type definitions allow the list attribute on every valid input type. |
 
@@ -55,16 +56,14 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
-| 2026-11-26 | OneBusAway/maglev | [#2237](https://github.com/OneBusAway/maglev/pull/2237) Memoize block sort and sequence lookups |  |
-| 2026-11-26 | better-auth/better-auth | [#12993](https://github.com/better-auth/better-auth/pull/12993) perf: cache HMAC CryptoKey across signing and verification |  |
-| 2026-11-26 | better-auth/better-auth | [#12992](https://github.com/better-auth/better-auth/pull/12992) fix(oauth-provider): scope refresh family invalidation to authorization grant |  |
-| 2026-11-26 | WordPress/openverse | [#5862](https://github.com/WordPress/openverse/pull/5862) Pin Redoc to 2.5.4 in Spectacular settings |  |
-| 2026-11-26 | OneBusAway/sdk-config | [#35](https://github.com/OneBusAway/sdk-config/pull/35) fix(openapi): default trips-for-route includeStatus/includeSchedule to true |  |
-| 2026-11-26 | OneBusAway/sidecar | [#87](https://github.com/OneBusAway/sidecar/pull/87) fix(render): set static gorush URL, add Android config, mark Stripe optional |  |
-| 2026-11-26 | OneBusAway/maglev | [#2236](https://github.com/OneBusAway/maglev/pull/2236) Match HTTP URL schemes case-insensitively |  |
-| 2026-11-26 | OneBusAway/waystation | [#122](https://github.com/OneBusAway/waystation/pull/122) test(board): add Playwright 1920x1080 single-board layout check |  |
-| 2026-11-26 | OneBusAway/wayfinder | [#746](https://github.com/OneBusAway/wayfinder/pull/746) feat(trip-planner): show intermediate stops for transit legs |  |
-| 2026-11-22 | WordPress/openverse | [#5850](https://github.com/WordPress/openverse/pull/5850) Log the right URL and the index in dead link validation messages |  |
+| 2026-11-26 | OneBusAway/watchdog | [#423](https://github.com/OneBusAway/watchdog/pull/423) fix(gtfs): resolve DST candidate gaps, LookupTrip availability, and compile cleanups (#306) | Fixes midnight and spring-forward DST candidate date handling in ClassifyTrip, adds ScheduleAvailable/Stale status to LookupTrip, and disables trip-index retention without Postgres. |
+| 2026-11-26 | OneBusAway/maglev | [#2237](https://github.com/OneBusAway/maglev/pull/2237) Memoize block sort and sequence lookups | Adds memoized block trip sequence lookups and shared block shift sorting, cutting arrival-for-location SQL queries from 426 to 176. |
+| 2026-11-26 | better-auth/better-auth | [#12993](https://github.com/better-auth/better-auth/pull/12993) perf: cache HMAC CryptoKey across signing and verification | Adds a bounded per-SubtleCrypto LRU cache for imported HMAC keys across cookie, bearer, and two-factor verification. |
+| 2026-11-26 | better-auth/better-auth | [#12992](https://github.com/better-auth/better-auth/pull/12992) fix(oauth-provider): scope refresh family invalidation to authorization grant | Scopes OAuth refresh token family invalidation to the authorization code grant rather than revoking unrelated user grants. |
+| 2026-11-26 | WordPress/openverse | [#5862](https://github.com/WordPress/openverse/pull/5862) Serve Redoc and Swagger UI via drf-spectacular-sidecar | Serves Redoc and Swagger UI static assets locally via drf-spectacular-sidecar instead of @latest CDN scripts. |
+| 2026-11-26 | OneBusAway/sdk-config | [#35](https://github.com/OneBusAway/sdk-config/pull/35) fix(openapi): default trips-for-route includeStatus/includeSchedule to true | Defaults includeStatus and includeSchedule query parameters to true in trips-for-route OpenAPI spec. |
+| 2026-11-26 | OneBusAway/waystation | [#122](https://github.com/OneBusAway/waystation/pull/122) test(board): add Playwright 1920x1080 single-board layout check | Adds a Playwright 1920x1080 single-board layout regression check and shares compact layout threshold logic. |
+| 2026-11-26 | OneBusAway/wayfinder | [#746](https://github.com/OneBusAway/wayfinder/pull/746) feat(trip-planner): show intermediate stops for transit legs | Displays intermediate stops along transit legs in the trip planner UI using OTP GraphQL data. |
 | 2026-11-13 | codex-team/editor.js | [#3049](https://github.com/codex-team/editor.js/pull/3049) fix(conversion): keep inline formatting when converting to a Tool with per-field sanitize rules |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3013](https://github.com/traceroot-ai/traceroot/pull/3013) fix(worker): keep OTLP bytesValue attributes instead of dropping them |  |
 | 2026-11-10 | kmesh-net/kmesh | [#1989](https://github.com/kmesh-net/kmesh/pull/1989) fix(cni): print the previous result when CNI_ARGS cannot be loaded | kmesh-cni prints the previous CNI result instead of panicking with a nil dereference when CNI_ARGS cannot be parsed. |
@@ -122,4 +121,4 @@ In review: Go fixes in [kmesh](https://github.com/kmesh-net/kmesh/pulls?q=author
 **Infra:** Docker, GitHub Actions, GitLab CI, Cloudflare Workers, Linux
 **AI:** OpenAI / Claude / Gemini APIs, RAG, vector search, Model Context Protocol
 
-Elsewhere: [Dev.to](https://dev.to/sh20raj) (45k+ Followers) · [YouTube (StackShade)](https://www.youtube.com/@StackShade) · [npm](https://www.npmjs.com/~iamsh) · [Codeforces](https://codeforces.com/profile/playlikeboy) · [Codolio](https://codolio.com/profile/sh20raj)
+Elsewhere: [Dev.to](https://dev.to/sh20raj) (45k+ Followers) · [YouTube (StackShade)](https://www.youtube.com/@StackShade) · [Codeforces](https://codeforces.com/profile/playlikeboy) · [Codolio](https://codolio.com/profile/sh20raj)
