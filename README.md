@@ -34,7 +34,7 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 24 merged · 33 in review (+0 draft) · 18 issues filed (updated 2026-11-26, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 33 merged · 46 in review (+0 draft) · 18 issues filed (updated 2026-11-27, refreshed automatically)</summary>
 
 <br>
 
@@ -42,6 +42,15 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-27 | Haseeb-MernStack/commune | [#295](https://github.com/Haseeb-MernStack/commune/pull/295) feat(web): improve empty state on Saved page with Explore CTA |  |
+| 2026-11-27 | Haseeb-MernStack/commune | [#294](https://github.com/Haseeb-MernStack/commune/pull/294) feat(web): show "You're all caught up" at the end of a feed |  |
+| 2026-11-27 | shoka-jp/automotive-ai-skills | [#48](https://github.com/shoka-jp/automotive-ai-skills/pull/48) docs(ev-assistant): translate guide into Spanish |  |
+| 2026-11-27 | shoka-jp/automotive-ai-skills | [#47](https://github.com/shoka-jp/automotive-ai-skills/pull/47) docs(vehicle-troubleshooting): translate guide into Spanish |  |
+| 2026-11-27 | pacocartones/free-llm-api-hub | [#992](https://github.com/pacocartones/free-llm-api-hub/pull/992) test(changes): cover formatValue, weekSummary and weekTitle |  |
+| 2026-11-27 | pacocartones/free-llm-api-hub | [#994](https://github.com/pacocartones/free-llm-api-hub/pull/994) test(long-guides): cover wording helpers and HTML prose escaping |  |
+| 2026-11-27 | shoka-jp/obd2-mcp | [#90](https://github.com/shoka-jp/obd2-mcp/pull/90) feat(pids): add Mode 01 PIDs 30 (warmups_since_clear) and 31 (distance_since_clear) |  |
+| 2026-11-27 | shoka-jp/obd2-mcp | [#89](https://github.com/shoka-jp/obd2-mcp/pull/89) fix(mock): reset distance_with_mil to 0 on Mode 04 clear |  |
+| 2026-11-27 | shoka-jp/obd2-mcp | [#88](https://github.com/shoka-jp/obd2-mcp/pull/88) feat(mock): add partial scenario with unsupported sensors and no freeze frame |  |
 | 2026-11-26 | shoka-jp/obd2-mcp | [#61](https://github.com/shoka-jp/obd2-mcp/pull/61) feat: add Mode 01 PIDs 1F (run_time) and 21 (distance_with_mil) |  |
 | 2026-11-26 | codepacct/codepact-conventions | [#9](https://github.com/codepacct/codepact-conventions/pull/9) feat(cli): validate CLI arguments and cover exit codes with integration tests |  |
 | 2026-11-26 | codepacct/codepact-core | [#16](https://github.com/codepacct/codepact-core/pull/16) fix(cli): deduplicate overlapping and symlinked scan paths |  |
@@ -71,6 +80,19 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-27 | mohdzain98/gnost | [#35](https://github.com/mohdzain98/gnost/pull/35) docs: add troubleshooting guide for common CLI and remote errors |  |
+| 2026-11-27 | mohdzain98/gnost | [#34](https://github.com/mohdzain98/gnost/pull/34) feat(changes): report lines added and removed per changed file |  |
+| 2026-11-27 | codepacct/codepact-action | [#17](https://github.com/codepacct/codepact-action/pull/17) test(action): add end-to-end tests for GitHub outputs, step summary, and strict modes |  |
+| 2026-11-27 | codepacct/codepact-conventions | [#11](https://github.com/codepacct/codepact-conventions/pull/11) test(examples): add documented examples and schema/validator integration tests |  |
+| 2026-11-27 | codepacct/codepact-core | [#26](https://github.com/codepacct/codepact-core/pull/26) test(packaging): verify tracked files survive npm pack |  |
+| 2026-11-27 | codepacct/codepact-action | [#16](https://github.com/codepacct/codepact-action/pull/16) ci: add windows-latest to unit-test matrix |  |
+| 2026-11-27 | codepacct/codepact-conventions | [#10](https://github.com/codepacct/codepact-conventions/pull/10) feat(cli): add structured --json output to validate-config |  |
+| 2026-11-27 | codepacct/codepact-core | [#25](https://github.com/codepacct/codepact-core/pull/25) test(cli): add end-to-end CLI output and exit-code regression tests |  |
+| 2026-11-27 | stratus-emulator/stratus | [#36](https://github.com/stratus-emulator/stratus/pull/36) s3: implement Put/Get/DeleteObjectTagging |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#755](https://github.com/OneBusAway/wayfinder/pull/755) fix(search): skip upstream calls when search query is blank |  |
+| 2026-11-27 | stratus-emulator/stratus | [#35](https://github.com/stratus-emulator/stratus/pull/35) kinesis: implement StartStreamEncryption and StopStreamEncryption |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#754](https://github.com/OneBusAway/wayfinder/pull/754) fix(otp): enforce strict numeric HH:mm format in validateTimeInput |  |
+| 2026-11-27 | stratus-emulator/stratus | [#34](https://github.com/stratus-emulator/stratus/pull/34) s3: implement Put/Get/DeleteBucketTagging |  |
 | 2026-11-26 | OneBusAway/wayfinder | [#753](https://github.com/OneBusAway/wayfinder/pull/753) fix(surveys): omit blank userId params and guard non-array survey payloads |  |
 | 2026-11-26 | OneBusAway/wayfinder | [#751](https://github.com/OneBusAway/wayfinder/pull/751) fix(alerts): check upstream HTTP status and validate multi-period GTFS-RT alerts |  |
 | 2026-11-26 | OneBusAway/wayfinder | [#750](https://github.com/OneBusAway/wayfinder/pull/750) fix(service-alerts): clamp stale page state and label pagination controls |  |
