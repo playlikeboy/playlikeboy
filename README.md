@@ -34,7 +34,7 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 33 merged · 46 in review (+0 draft) · 18 issues filed (updated 2026-11-27, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 52 merged · 45 in review (+0 draft) · 26 issues filed (updated 2026-11-27, refreshed automatically)</summary>
 
 <br>
 
@@ -42,6 +42,25 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-27 | SopKit/games | [#7](https://github.com/SopKit/games/pull/7) fix(ratings): remove synthetic player scores and schema claims |  |
+| 2026-11-27 | SopKit/games | [#2](https://github.com/SopKit/games/pull/2) fix(catalog): validate records and publish deterministic outputs atomically |  |
+| 2026-11-27 | SopKit/games | [#4](https://github.com/SopKit/games/pull/4) fix(web): tolerate blocked storage and normalize catalog pagination |  |
+| 2026-11-27 | SopKit/games | [#3](https://github.com/SopKit/games/pull/3) fix(images): constrain downloads and validate image payloads |  |
+| 2026-11-27 | SopKit/games | [#6](https://github.com/SopKit/games/pull/6) fix(scraper): fail fast on permanent feed HTTP errors |  |
+| 2026-11-27 | mohdzain98/gnost | [#35](https://github.com/mohdzain98/gnost/pull/35) docs: add troubleshooting guide for common CLI and remote errors |  |
+| 2026-11-27 | SopKit/games | [#1](https://github.com/SopKit/games/pull/1) fix(scraper): validate feed data and make refresh crash-safe |  |
+| 2026-11-27 | mohdzain98/gnost | [#34](https://github.com/mohdzain98/gnost/pull/34) feat(changes): report lines added and removed per changed file |  |
+| 2026-11-27 | SopKit/sopkit.github.io | [#5](https://github.com/SopKit/sopkit.github.io/pull/5) Add loan EMI calculator (AdSense-ready, standalone page) |  |
+| 2026-11-27 | SopKit/sopkit.github.io | [#10](https://github.com/SopKit/sopkit.github.io/pull/10) fix(image-compressor): fix object URL lifecycle, original download ext, and target warning |  |
+| 2026-11-27 | SopKit/sopkit.github.io | [#9](https://github.com/SopKit/sopkit.github.io/pull/9) fix(audio): concatenate joined tracks sequentially and fix URL/AudioContext leaks |  |
+| 2026-11-27 | SopKit/sopkit.github.io | [#8](https://github.com/SopKit/sopkit.github.io/pull/8) fix(seo): include all indexable category hubs in llms.txt |  |
+| 2026-11-27 | SopKit/sopkit.github.io | [#7](https://github.com/SopKit/sopkit.github.io/pull/7) fix(security): harden IPv6 SSRF checks, maxResponseSizeBytes, WebP magic bytes, and path sanitization |  |
+| 2026-11-27 | SopKit/sopkit.github.io | [#6](https://github.com/SopKit/sopkit.github.io/pull/6) fix(analytics): fail closed when consent is missing or storage throws |  |
+| 2026-11-27 | SopKit/it-tools | [#5](https://github.com/SopKit/it-tools/pull/5) fix(wifi-qr): omit undefined PH2 and clear stale QR code on invalid input |  |
+| 2026-11-27 | SopKit/it-tools | [#4](https://github.com/SopKit/it-tools/pull/4) fix(json-diff): handle removed arrays, type changes, and added nested containers |  |
+| 2026-11-27 | SopKit/it-tools | [#3](https://github.com/SopKit/it-tools/pull/3) fix(c-select): fix keyboard bounds, reactive options, and ARIA semantics |  |
+| 2026-11-27 | SopKit/it-tools | [#2](https://github.com/SopKit/it-tools/pull/2) fix(regex-tester): handle unmatched optional groups and mutually exclusive u/v flags |  |
+| 2026-11-27 | SopKit/it-tools | [#1](https://github.com/SopKit/it-tools/pull/1) fix(base64): use mime-types lookup, fallback extension, and raw image preview |  |
 | 2026-11-27 | Haseeb-MernStack/commune | [#295](https://github.com/Haseeb-MernStack/commune/pull/295) feat(web): improve empty state on Saved page with Explore CTA |  |
 | 2026-11-27 | Haseeb-MernStack/commune | [#294](https://github.com/Haseeb-MernStack/commune/pull/294) feat(web): show "You're all caught up" at the end of a feed |  |
 | 2026-11-27 | shoka-jp/automotive-ai-skills | [#48](https://github.com/shoka-jp/automotive-ai-skills/pull/48) docs(ev-assistant): translate guide into Spanish |  |
@@ -80,8 +99,8 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
-| 2026-11-27 | mohdzain98/gnost | [#35](https://github.com/mohdzain98/gnost/pull/35) docs: add troubleshooting guide for common CLI and remote errors |  |
-| 2026-11-27 | mohdzain98/gnost | [#34](https://github.com/mohdzain98/gnost/pull/34) feat(changes): report lines added and removed per changed file |  |
+| 2026-11-27 | OneBusAway/python-sdk | [#361](https://github.com/OneBusAway/python-sdk/pull/361) docs: clarify generated code and preferred contribution areas in CONTRIBUTING.md |  |
+| 2026-11-27 | OneBusAway/sdk-config | [#36](https://github.com/OneBusAway/sdk-config/pull/36) feat(openapi): remove /api/where/block/{blockID}.json endpoint |  |
 | 2026-11-27 | codepacct/codepact-action | [#17](https://github.com/codepacct/codepact-action/pull/17) test(action): add end-to-end tests for GitHub outputs, step summary, and strict modes |  |
 | 2026-11-27 | codepacct/codepact-conventions | [#11](https://github.com/codepacct/codepact-conventions/pull/11) test(examples): add documented examples and schema/validator integration tests |  |
 | 2026-11-27 | codepacct/codepact-core | [#26](https://github.com/codepacct/codepact-core/pull/26) test(packaging): verify tracked files survive npm pack |  |
@@ -104,7 +123,6 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 | 2026-11-26 | quanta-js/quanta | [#223](https://github.com/quanta-js/quanta/pull/223) test(core): raise create-store branch coverage |  |
 | 2026-11-26 | jannskiee/floe | [#1029](https://github.com/jannskiee/floe/pull/1029) fix(desktop): ignore repeated keys on the receive action button |  |
 | 2026-11-26 | Blivius/renpet | [#10](https://github.com/Blivius/renpet/pull/10) fix(records): only warn about Claude Code cleanup when cleanupPeriodDays < 90 |  |
-| 2026-11-26 | SopKit/sopkit.github.io | [#5](https://github.com/SopKit/sopkit.github.io/pull/5) Add loan EMI calculator (AdSense-ready, standalone page) |  |
 | 2026-11-26 | OneBusAway/maglev | [#2237](https://github.com/OneBusAway/maglev/pull/2237) Memoize block sort and sequence lookups | Adds memoized block trip sequence lookups and shared block shift sorting, cutting arrival-for-location SQL queries from 426 to 176. |
 | 2026-11-26 | better-auth/better-auth | [#12993](https://github.com/better-auth/better-auth/pull/12993) perf: cache HMAC CryptoKey across signing and verification | Adds a bounded per-SubtleCrypto LRU cache for imported HMAC keys across cookie, bearer, and two-factor verification. |
 | 2026-11-26 | better-auth/better-auth | [#12992](https://github.com/better-auth/better-auth/pull/12992) fix(oauth-provider): scope refresh family invalidation to authorization grant | Scopes OAuth refresh token family invalidation to the authorization code grant rather than revoking unrelated user grants. |
@@ -131,6 +149,14 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Opened | Repository | Issue | Status | Note |
 |---|---|---|---|---|
+| 2026-11-27 | OneBusAway/wayfinder | [#765](https://github.com/OneBusAway/wayfinder/issues/765) bug(search): GET /api/oba/search queries upstream OBA and geocoder when query is blank | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#764](https://github.com/OneBusAway/wayfinder/issues/764) bug(otp): validateTimeInput accepts malformed times like '12abc:00' or '+09:30' | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#763](https://github.com/OneBusAway/wayfinder/issues/763) bug(surveys): blank userId forwarded as ?userId=null and non-array survey payloads throw TypeError | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#762](https://github.com/OneBusAway/wayfinder/issues/762) bug(alerts): /api/oba/alerts crashes on non-OK upstream responses and misses active multi-period GTFS-RT alerts | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#761](https://github.com/OneBusAway/wayfinder/issues/761) bug(service-alerts): stale pagination page left blank when alerts shrink or stop changes | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#760](https://github.com/OneBusAway/wayfinder/issues/760) bug(routes): ViewAllRoutesModal shows an empty blank list when /api/oba/routes fails | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#759](https://github.com/OneBusAway/wayfinder/issues/759) bug(geocoder): uncaught failures on queryPrediction entries, missing Bing addresses, and non-OK upstream responses | open |  |
+| 2026-11-27 | OneBusAway/wayfinder | [#758](https://github.com/OneBusAway/wayfinder/issues/758) bug(alerts): unsafe alert URLs rendered directly and locale changes ignored in AlertsModal | open |  |
 | 2026-11-19 | OneBusAway/wayfinder | [#729](https://github.com/OneBusAway/wayfinder/issues/729) Trip planner: show the stops a transit leg passes | closed |  |
 | 2026-11-12 | mcp-use/mcp-use | [#3083](https://github.com/mcp-use/mcp-use/issues/3083) docs/examples: add a Cloudflare Workers deployment example + v2 docs page for the TypeScript server | open |  |
 | 2026-11-12 | traceroot-ai/traceroot | [#3012](https://github.com/traceroot-ai/traceroot/issues/3012) bug(worker): OTLP bytes_value attributes are dropped at ingest (extract_attribute_value has no bytesValue branch) | open |  |
