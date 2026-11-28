@@ -34,7 +34,7 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 <!-- PRS:BEGIN -->
 <details>
-<summary><strong>Upstream pull requests from @playlikeboy</strong> — 52 merged · 45 in review (+0 draft) · 26 issues filed (updated 2026-11-27, refreshed automatically)</summary>
+<summary><strong>Upstream pull requests from @playlikeboy</strong> — 53 merged · 49 in review (+0 draft) · 26 issues filed (updated 2026-11-28, refreshed automatically)</summary>
 
 <br>
 
@@ -42,6 +42,7 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Merged | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-28 | stratus-emulator/stratus | [#34](https://github.com/stratus-emulator/stratus/pull/34) s3: implement Put/Get/DeleteBucketTagging |  |
 | 2026-11-27 | SopKit/games | [#7](https://github.com/SopKit/games/pull/7) fix(ratings): remove synthetic player scores and schema claims |  |
 | 2026-11-27 | SopKit/games | [#2](https://github.com/SopKit/games/pull/2) fix(catalog): validate records and publish deterministic outputs atomically |  |
 | 2026-11-27 | SopKit/games | [#4](https://github.com/SopKit/games/pull/4) fix(web): tolerate blocked storage and normalize catalog pagination |  |
@@ -99,6 +100,11 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 
 | Opened | Repository | Pull request | What it does |
 |---|---|---|---|
+| 2026-11-28 | stratus-emulator/stratus | [#37](https://github.com/stratus-emulator/stratus/pull/37) feat(sqs): implement message move tasks (StartMessageMoveTask, ListMessageMoveTasks, CancelMessageMoveTask) |  |
+| 2026-11-28 | pacocartones/free-llm-api-hub | [#1095](https://github.com/pacocartones/free-llm-api-hub/pull/1095) feat(links): validate heading anchors in check-links |  |
+| 2026-11-28 | quanta-js/quanta | [#224](https://github.com/quanta-js/quanta/pull/224) test(core,react): cover useWatch errors and deep Map/Set/cycle watching |  |
+| 2026-11-28 | Haseeb-MernStack/commune | [#298](https://github.com/Haseeb-MernStack/commune/pull/298) feat(web): add Share button to profile pages |  |
+| 2026-11-28 | codepacct/codepact-core | [#29](https://github.com/codepacct/codepact-core/pull/29) feat(report): emit GitHub Actions annotations for findings |  |
 | 2026-11-27 | OneBusAway/python-sdk | [#361](https://github.com/OneBusAway/python-sdk/pull/361) docs: clarify generated code and preferred contribution areas in CONTRIBUTING.md |  |
 | 2026-11-27 | OneBusAway/sdk-config | [#36](https://github.com/OneBusAway/sdk-config/pull/36) feat(openapi): remove /api/where/block/{blockID}.json endpoint |  |
 | 2026-11-27 | codepacct/codepact-action | [#17](https://github.com/codepacct/codepact-action/pull/17) test(action): add end-to-end tests for GitHub outputs, step summary, and strict modes |  |
@@ -111,7 +117,6 @@ In review: transit backend & monitoring improvements in [OneBusAway](https://git
 | 2026-11-27 | OneBusAway/wayfinder | [#755](https://github.com/OneBusAway/wayfinder/pull/755) fix(search): skip upstream calls when search query is blank |  |
 | 2026-11-27 | stratus-emulator/stratus | [#35](https://github.com/stratus-emulator/stratus/pull/35) kinesis: implement StartStreamEncryption and StopStreamEncryption |  |
 | 2026-11-27 | OneBusAway/wayfinder | [#754](https://github.com/OneBusAway/wayfinder/pull/754) fix(otp): enforce strict numeric HH:mm format in validateTimeInput |  |
-| 2026-11-27 | stratus-emulator/stratus | [#34](https://github.com/stratus-emulator/stratus/pull/34) s3: implement Put/Get/DeleteBucketTagging |  |
 | 2026-11-26 | OneBusAway/wayfinder | [#753](https://github.com/OneBusAway/wayfinder/pull/753) fix(surveys): omit blank userId params and guard non-array survey payloads |  |
 | 2026-11-26 | OneBusAway/wayfinder | [#751](https://github.com/OneBusAway/wayfinder/pull/751) fix(alerts): check upstream HTTP status and validate multi-period GTFS-RT alerts |  |
 | 2026-11-26 | OneBusAway/wayfinder | [#750](https://github.com/OneBusAway/wayfinder/pull/750) fix(service-alerts): clamp stale page state and label pagination controls |  |
